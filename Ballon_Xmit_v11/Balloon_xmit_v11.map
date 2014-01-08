@@ -1,4 +1,4 @@
-Microchip Technology Inc, vv3_31 (A) š
+Microchip Technology Inc, vv3_31 (A) 
 
 Tool Name:
   c:\program files (x86)\microchip\mplab c30\bin\bin\..\bin/pic30-coff-ld.exe
@@ -141,15 +141,15 @@ section                    address      alignment gaps    total length  (dec)
 .nbss                       0x1082                   0             0xe  (14)
 .ndata                      0x1090                   0             0x8  (8)
 .nbss                       0x1098                   0             0x8  (8)
-_02c5807052aba9a8           0x10a0                   0             0x6  (6)
+_02ada07052cdb8fa           0x10a0                   0             0x6  (6)
 .ndata                      0x10a6                   0             0xc  (12)
 .nbss                       0x10b2                   0             0xe  (14)
 .ndata                      0x10c0                   0             0x4  (4)
 .nbss                       0x10c4                   0             0x8  (8)
 .ndata                      0x10cc                   0             0x2  (2)
-_02c9c54052aba9aa           0x10ce                   0             0x2  (2)
+_02b3c54052cdb8fb           0x10ce                   0             0x2  (2)
 .ndata                      0x10d0                   0             0x2  (2)
-_02d54d2052aba9bd           0x10d2                   0             0x2  (2)
+_02b5ed2052cdb900           0x10d2                   0             0x2  (2)
 .nbss                       0x10d4                   0             0x2  (2)
 .ndata                      0x10d6                   0             0xc  (12)
 .data                       0x10e2                   0            0xa0  (160)
@@ -2203,9 +2203,9 @@ __c30_signature
  .nbss              0x1098          0x8 Objects - ballonXmit\WFPowerSave.o
                     0x109e                  g_rxDtim
 
-_02c5807052aba9a8
+_02ada07052cdb8fa
                     0x10a0          0x6
- _02c5807052aba9a8
+ _02ada07052cdb8fa
                     0x10a0          0x6 Objects - ballonXmit\Tick.o
 
 .ndata              0x10a6          0xc
@@ -2233,17 +2233,17 @@ _02c5807052aba9a8
 .ndata              0x10cc          0x2
  .ndata             0x10cc          0x2 Objects - ballonXmit\UDP.o
 
-_02c9c54052aba9aa
+_02b3c54052cdb8fb
                     0x10ce          0x2
- _02c9c54052aba9aa
+ _02b3c54052cdb8fb
                     0x10ce          0x2 Objects - ballonXmit\UDP.o
 
 .ndata              0x10d0          0x2
  .ndata             0x10d0          0x2 Objects - ballonXmit\TCP.o
 
-_02d54d2052aba9bd
+_02b5ed2052cdb900
                     0x10d2          0x2
- _02d54d2052aba9bd
+ _02b5ed2052cdb900
                     0x10d2          0x2 Objects - ballonXmit\TCP.o
 
 .nbss               0x10d4          0x2
