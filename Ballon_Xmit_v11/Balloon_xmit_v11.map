@@ -1,0 +1,2714 @@
+Microchip Technology Inc, vv3_31 (A) š
+
+Tool Name:
+  c:\program files (x86)\microchip\mplab c30\bin\bin\..\bin/pic30-coff-ld.exe
+
+Command:
+  -p24FJ64GA004 \
+  -oBalloon_xmit_v11.cof \
+  -Lc:/program files (x86)/microchip/mplab c30/bin/bin/.. \
+  -Lc:/program files (x86)/microchip/mplab c30/bin/bin/../../lib \
+  -Lc:/program files (x86)/microchip/mplab c30/bin/bin/../../lib/PIC24E \
+  -Lc:/program files (x86)/microchip/mplab c30/bin/bin/../../support/PIC24E/gld \
+  -Lc:/program files (x86)/microchip/mplab c30/bin/bin/../../lib/PIC24F \
+  -Lc:/program files (x86)/microchip/mplab c30/bin/bin/../../support/PIC24F/gld \
+  -Lc:/program files (x86)/microchip/mplab c30/bin/bin/../../lib/PIC24H \
+  -Lc:/program files (x86)/microchip/mplab c30/bin/bin/../../support/PIC24H/gld \
+  -Lc:/program files (x86)/microchip/mplab c30/bin/bin/../../lib/dsPIC30F \
+  -Lc:/program files (x86)/microchip/mplab c30/bin/bin/../../support/dsPIC30F/gld \
+  -Lc:/program files (x86)/microchip/mplab c30/bin/bin/../../lib/dsPIC33E \
+  -Lc:/program files (x86)/microchip/mplab c30/bin/bin/../../support/dsPIC33E/gld \
+  -Lc:/program files (x86)/microchip/mplab c30/bin/bin/../../lib/dsPIC33F \
+  -Lc:/program files (x86)/microchip/mplab c30/bin/bin/../../support/dsPIC33F/gld \
+  Objects - ballonXmit\MainDemo.o \
+  Objects - ballonXmit\Tick.o \
+  Objects - ballonXmit\UART.o \
+  Objects - ballonXmit\UDP.o \
+  Objects - ballonXmit\Announce.o \
+  Objects - ballonXmit\Delay.o \
+  Objects - ballonXmit\DHCPs.o \
+  Objects - ballonXmit\Hashes.o \
+  Objects - ballonXmit\Helpers.o \
+  Objects - ballonXmit\ICMP.o \
+  Objects - ballonXmit\IP.o \
+  Objects - ballonXmit\StackTsk.o \
+  Objects - ballonXmit\TCP.o \
+  Objects - ballonXmit\WFTxPower.o \
+  Objects - ballonXmit\WF_Eint.o \
+  Objects - ballonXmit\WF_Spi.o \
+  Objects - ballonXmit\WFConnectionManager.o \
+  Objects - ballonXmit\WFConnectionProfile.o \
+  Objects - ballonXmit\WFDriverCom.o \
+  Objects - ballonXmit\WFEventHandler.o \
+  Objects - ballonXmit\WFInit.o \
+  Objects - ballonXmit\WFMac.o \
+  Objects - ballonXmit\WFParamMsg.o \
+  Objects - ballonXmit\WFPowerSave.o \
+  Objects - ballonXmit\WFScan.o \
+  Objects - ballonXmit\WF_Config.o \
+  Objects - ballonXmit\ZeroconfMulticastDNS.o \
+  Objects - ballonXmit\Balloon_OSC.o \
+  Objects - ballonXmit\nrf24l01.o \
+  Objects - ballonXmit\spi1.o \
+  Objects - ballonXmit\WFConnectionAlgorithm.o \
+  Objects - ballonXmit\WFMgmtMsg.o \
+  Objects - ballonXmit\ARP.o \
+  Objects - ballonXmit\WFDriverRaw.o \
+  Objects - ballonXmit\WF_pbkdf2.o \
+  Objects - ballonXmit\WFConsole.o \
+  Objects - ballonXmit\WFConsoleIfconfig.o \
+  Objects - ballonXmit\WFConsoleIwconfig.o \
+  Objects - ballonXmit\WFConsoleIwpriv.o \
+  Objects - ballonXmit\WFConsoleMsgHandler.o \
+  Objects - ballonXmit\WFConsoleMsgs.o \
+  Objects - ballonXmit\WFDataTxRx.o \
+  Objects - ballonXmit\WFDebugStrings.o \
+  Objects - ballonXmit\WFEasyConfig.o \
+  Objects - ballonXmit\ZeroconfLinkLocal.o \
+  Objects - ballonXmit\ZeroconfHelper.o \
+  -Tp24FJ64GA004.gld.00 \
+  --defsym=__MPLAB_BUILD=1 \
+  -Map=Balloon_xmit_v11.map \
+  --report-mem \
+  -S \
+  -start-group \
+  --library=pic30-coff \
+  --library=m-coff \
+  --library=c-coff \
+  -end-group \
+
+Archive member included because of file (symbol)
+
+c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib/PIC24F\libpPIC24Fxxx-coff.a(putsUART2.o)
+                              Objects - ballonXmit\ZeroconfMulticastDNS.o (putsUART2)
+c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libpic30-coff.a(crt0_standard.o)
+                              (_resetPRI)
+c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libpic30-coff.a(data_init_standard.o)
+                              c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libpic30-coff.a(crt0_standard.o) (_data_init_standard)
+c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libm-coff.a(divmoddi3.o)
+                              Objects - ballonXmit\Tick.o (__udivdi3)
+c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libm-coff.a(muldi3.o)
+                              Objects - ballonXmit\ZeroconfMulticastDNS.o (__muldi3)
+c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libm-coff.a(umuldi3.o)
+                              c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libm-coff.a(muldi3.o) (__umuldi3)
+c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libc-coff.a(strlen.XXo)
+                              Objects - ballonXmit\MainDemo.o (strlen)
+c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libc-coff.a(memset.XXo)
+                              Objects - ballonXmit\MainDemo.o (memset)
+c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libc-coff.a(strncpy.XXo)
+                              Objects - ballonXmit\Helpers.o (strncpy)
+c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libc-coff.a(memcmp.XXo)
+                              Objects - ballonXmit\StackTsk.o (memcmp)
+c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libc-coff.a(memcpy.XXo)
+                              Objects - ballonXmit\TCP.o (memcpy)
+c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libc-coff.a(sprintf_cdnopuxX.XXo)
+                              Objects - ballonXmit\ZeroconfMulticastDNS.o (_sprintf_cdnopuxX)
+c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libc-coff.a(isxdigit.XXo)
+                              Objects - ballonXmit\WFConsoleMsgs.o (isxdigit)
+c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libc-coff.a(doprnt_cdnopuxX.XXo)
+                              c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libc-coff.a(sprintf_cdnopuxX.XXo) (_vfprintf_cdnopuxX)
+c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libc-coff.a(fputc.XXo)
+                              c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libc-coff.a(doprnt_cdnopuxX.XXo) (fputc)
+c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libc-coff.a(_iob.XXo)
+                              c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libc-coff.a(fputc.XXo) (_outdone)
+c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libc-coff.a(flsbuf.XXo)
+                              c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libc-coff.a(fputc.XXo) (_flsbuf)
+c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libpic30-coff.a(write.o)
+                              c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libc-coff.a(fputc.XXo) (write)
+
+
+Program Memory  [Origin = 0x200, Length = 0xa9fa]
+
+section                    address   length (PC units)   length (bytes) (dec)
+-------                    -------   -----------------   --------------------
+.text                        0x200               0xb3a          0x10d7  (4311)
+.const                       0xd3a               0x1fc           0x2fa  (762)
+.text                        0xf36              0x8814          0xcc1e  (52254)
+.dinit                      0x974a               0x212           0x31b  (795)
+.text                       0x995c              0x1244          0x1b66  (7014)
+
+                     Total program memory used (bytes):         0xfe70  (65136) 99%
+
+
+Data Memory  [Origin = 0x800, Length = 0x2000]
+
+section                    address      alignment gaps    total length  (dec)
+-------                    -------      --------------    -------------------
+.nbss                        0x800                   0           0x6d4  (1748)
+.ndata                       0xed4                   0            0x9e  (158)
+.nbss                        0xf72                   0           0x102  (258)
+.ndata                      0x1074                   0             0xe  (14)
+.nbss                       0x1082                   0             0xe  (14)
+.ndata                      0x1090                   0             0x8  (8)
+.nbss                       0x1098                   0             0x8  (8)
+_02c5807052aba9a8           0x10a0                   0             0x6  (6)
+.ndata                      0x10a6                   0             0xc  (12)
+.nbss                       0x10b2                   0             0xe  (14)
+.ndata                      0x10c0                   0             0x4  (4)
+.nbss                       0x10c4                   0             0x8  (8)
+.ndata                      0x10cc                   0             0x2  (2)
+_02c9c54052aba9aa           0x10ce                   0             0x2  (2)
+.ndata                      0x10d0                   0             0x2  (2)
+_02d54d2052aba9bd           0x10d2                   0             0x2  (2)
+.nbss                       0x10d4                   0             0x2  (2)
+.ndata                      0x10d6                   0             0xc  (12)
+.data                       0x10e2                   0            0xa0  (160)
+.dconst                     0x1182                   0            0x2a  (42)
+.data                       0x11ac                   0            0x26  (38)
+.bss                        0x11d2                   0             0x6  (6)
+
+                        Total data memory used (bytes):          0x9d8  (2520) 30%
+
+
+Dynamic Memory Usage
+
+region                     address                      maximum length  (dec)
+------                     -------                      ---------------------
+heap                             0                                   0  (0)
+stack                       0x11d8                              0x1628  (5672)
+
+                        Maximum dynamic memory (bytes):         0x1628  (5672)
+
+
+External Symbols in Data Memory (by address):
+
+                    0x080a                  _BALLOON_raw_pack
+                    0x08a0                  _rf_xmit_data
+                    0x08c1                  _xmit_frame
+                    0x0ab6                  _AppConfig
+                    0x0b4f                  _AN0String
+                    0x0d2c                  _UDPSocketInfo
+                    0x0e04                  _activeUDPSocket
+                    0x0e06                  _UDPTxCount
+                    0x0e08                  _UDPRxCount
+                    0x0ed4                  _OSCXmsg
+                    0x0ef2                  _OSCYmsg
+                    0x0f10                  _OSCZmsg
+                    0x0f2e                  _namespace_fire
+                    0x0f4c                  _namespace_uplight
+                    0x0f6a                  _padlength
+                    0x0f6c                  _myLightNum
+                    0x0f6e                  _boosh_state
+                    0x0f6f                  _update_boosh
+                    0x0f7c                  _DhcpIpPool
+                    0x0fdc                  _OSC_remote
+                    0x0fe6                  _OSC_MSG
+                    0x102c                  _boosh_on
+                    0x104a                  _g_rxIndexSetBeyondBuffer
+                    0x1070                  _RawMoveState
+                    0x1074                  _my_board_addr
+                    0x1075                  _xmit_frame_addr
+                    0x1076                  _transmit_now
+                    0x1078                  _gBytesToXmit
+                    0x107c                  _new_balloon_pack
+                    0x107d                  _prev_channel
+                    0x107e                  _prev_datarate
+                    0x1080                  ___C30_UART
+                    0x1086                  _remoteNode
+                    0x1090                  _g_DhcpSuccessful
+                    0x1092                  _g_WiFiConnectionChanged
+                    0x1094                  _g_WiFiConnection
+                    0x1096                  _g_dhcpInProgress
+                    0x109e                  _g_rxDtim
+                    0x10a8                  _bDHCPServerEnabled
+                    0x10ac                  _mDNS_responder_state
+                    0x10ae                  _CONST_STR_local
+                    0x10b0                  _mDNS_socket
+                    0x10b2                  _RawWindowReady
+                    0x10b6                  _RawWindowState
+                    0x10d6                  _gRFModuleVer1209orLater
+                    0x10dc                  _g_WaitingForMgmtResponse
+                    0x10de                  _g_HostRAWDataPacketReceived
+                    0x10e0                  _zeroconf_dbg_level
+                    0x11ac                  __Files
+                    0x11ae                  __iob
+                    0x11d2                  __sobuf
+                    0x11d4                  __sibuf
+                    0x11d6                  __outdone
+
+External Symbols in Data Memory (by name):
+
+                    0x0b4f                  _AN0String
+                    0x0ab6                  _AppConfig
+                    0x080a                  _BALLOON_raw_pack
+                    0x10ae                  _CONST_STR_local
+                    0x0f7c                  _DhcpIpPool
+                    0x0ed4                  _OSCXmsg
+                    0x0ef2                  _OSCYmsg
+                    0x0f10                  _OSCZmsg
+                    0x0fe6                  _OSC_MSG
+                    0x0fdc                  _OSC_remote
+                    0x1070                  _RawMoveState
+                    0x10b2                  _RawWindowReady
+                    0x10b6                  _RawWindowState
+                    0x0e08                  _UDPRxCount
+                    0x0d2c                  _UDPSocketInfo
+                    0x0e06                  _UDPTxCount
+                    0x11ac                  __Files
+                    0x1080                  ___C30_UART
+                    0x11ae                  __iob
+                    0x11d6                  __outdone
+                    0x11d4                  __sibuf
+                    0x11d2                  __sobuf
+                    0x0e04                  _activeUDPSocket
+                    0x10a8                  _bDHCPServerEnabled
+                    0x102c                  _boosh_on
+                    0x0f6e                  _boosh_state
+                    0x1078                  _gBytesToXmit
+                    0x10d6                  _gRFModuleVer1209orLater
+                    0x1090                  _g_DhcpSuccessful
+                    0x10de                  _g_HostRAWDataPacketReceived
+                    0x10dc                  _g_WaitingForMgmtResponse
+                    0x1094                  _g_WiFiConnection
+                    0x1092                  _g_WiFiConnectionChanged
+                    0x1096                  _g_dhcpInProgress
+                    0x109e                  _g_rxDtim
+                    0x104a                  _g_rxIndexSetBeyondBuffer
+                    0x10ac                  _mDNS_responder_state
+                    0x10b0                  _mDNS_socket
+                    0x0f6c                  _myLightNum
+                    0x1074                  _my_board_addr
+                    0x0f2e                  _namespace_fire
+                    0x0f4c                  _namespace_uplight
+                    0x107c                  _new_balloon_pack
+                    0x0f6a                  _padlength
+                    0x107d                  _prev_channel
+                    0x107e                  _prev_datarate
+                    0x1086                  _remoteNode
+                    0x08a0                  _rf_xmit_data
+                    0x1076                  _transmit_now
+                    0x0f6f                  _update_boosh
+                    0x08c1                  _xmit_frame
+                    0x1075                  _xmit_frame_addr
+                    0x10e0                  _zeroconf_dbg_level
+
+External Symbols in Program Memory (by address):
+
+                  0x000200                  __resetPRI
+                  0x000222                  __psv_init
+                  0x000232                  __data_init_standard
+                  0x000232                  __data_init
+                  0x000290                  _isxdigit
+                  0x000340                  ___udivmoddi3
+                  0x00040e                  ___udivdi3
+                  0x00041c                  ___umoddi3
+                  0x000424                  ___divdi3
+                  0x00045e                  ___moddi3
+                  0x000530                  ___muldi3
+                  0x00058c                  ___umuldi3
+                  0x0005d0                  _putsUART2
+                  0x000604                  _strlen
+                  0x000610                  _memset
+                  0x00061e                  _strncpy
+                  0x00064c                  _memcmp
+                  0x000680                  _memcpy
+                  0x00068e                  __sprintf_cdnopuxX
+                  0x0006bc                  __vfprintf_cdnopuxX
+                  0x000d3a                  _helpCmd
+                  0x000d3f                  _helpHelp
+                  0x000d52                  _getwfverCmd
+                  0x000d5b                  _getwfverHelp
+                  0x000d74                  _resetCmd
+                  0x000d7a                  _resetHelp
+                  0x000d89                  _clsCmd
+                  0x000d8d                  _clsHelp
+                  0x000d9b                  _seeDocHelp
+                  0x000dad                  _pingCmd
+                  0x000db2                  _pingHelp
+                  0x000dc4                  _g_consoleCmd
+                  0x000de2                  _g_numCmds
+                  0x000f1c                  _TCPSocketInitializer
+                  0x000fd2                  _TCPInit
+                  0x0010b6                  _TCPOpen
+                  0x0011c4                  _TCPWasReset
+                  0x0011f4                  _TCPIsConnected
+                  0x00121c                  _TCPDisconnect
+                  0x0012b4                  _TCPClose
+                  0x0012cc                  _TCPGetRemoteInfo
+                  0x0012f8                  _TCPFlush
+                  0x00131a                  _TCPIsPutReady
+                  0x001370                  _TCPPut
+                  0x001408                  _TCPPutArray
+                  0x0014e2                  _TCPPutString
+                  0x001500                  _TCPGetTxFIFOFull
+                  0x00152e                  _TCPDiscard
+                  0x00154c                  _TCPIsGetReady
+                  0x00158a                  _TCPGet
+                  0x0015f4                  _TCPGetArray
+                  0x0016b0                  _TCPGetRxFIFOFree
+                  0x0016dc                  _TCPPeekArray
+                  0x001788                  _TCPPeek
+                  0x0017a0                  _TCPFindArrayEx
+                  0x001a2a                  _TCPFindEx
+                  0x001a48                  _TCPTick
+                  0x001e42                  _TCPProcess
+                  0x002f4e                  _TCPAdjustFIFOSize
+                  0x0037e4                  _mDNSSDFillResRecords
+                  0x0039dc                  _mDNSServiceUpdate
+                  0x003a7e                  _mDNSServiceDeRegister
+                  0x003b2c                  _mDNSServiceRegister
+                  0x003c28                  _mDNSAnnounce
+                  0x004622                  _mDNSFillHostRecord
+                  0x0046b4                  _mDNSHostRegister
+                  0x00472c                  _mDNSInitialize
+                  0x0047be                  _mDNSProcessInternal
+                  0x004adc                  _mDNSProcess
+                  0x004bf2                  _mDNSMulticastFilterRegister
+                  0x004c0a                  _mDNSDumpInfo
+                  0x004c98                  _DHCPServerTask
+                  0x0056fa                  _DHCPServer_Disable
+                  0x005714                  _DHCPServer_Enable
+                  0x005724                  _DelayUS
+                  0x005750                  _nrf24l01_initialize
+                  0x0058be                  _nrf24l01_initialize_debug
+                  0x005946                  _nrf24l01_initialize_debug_lite
+                  0x00596a                  _nrf24l01_power_up
+                  0x0059b6                  _nrf24l01_power_up_param
+                  0x0059f0                  _nrf24l01_power_down
+                  0x005a1e                  _nrf24l01_power_down_param
+                  0x005a38                  _nrf24l01_set_as_rx
+                  0x005a6e                  _nrf24l01_set_as_rx_param
+                  0x005a96                  _nrf24l01_rx_standby_to_active
+                  0x005a9e                  _nrf24l01_rx_active_to_standby
+                  0x005aa6                  _nrf24l01_set_as_tx
+                  0x005ad2                  _nrf24l01_set_as_tx_param
+                  0x005af4                  _nrf24l01_write_register
+                  0x005b12                  _nrf24l01_read_register
+                  0x005b2c                  _nrf24l01_write_tx_payload
+                  0x005b4e                  _nrf24l01_write_tx_payload_noack
+                  0x005b70                  _nrf24l01_read_rx_payload
+                  0x005b8c                  _nrf24l01_flush_tx
+                  0x005b9e                  _nrf24l01_flush_rx
+                  0x005bb0                  _nrf24l01_reuse_tx_pl
+                  0x005bc2                  _nrf24l01_nop
+                  0x005bd4                  _nrf24l01_transmit
+                  0x005be4                  _nrf24l01_clear_ce
+                  0x005bf2                  _nrf24l01_set_ce
+                  0x005c00                  _nrf24l01_ce_pin_active
+                  0x005c1c                  _nrf24l01_clear_csn
+                  0x005c2a                  _nrf24l01_set_csn
+                  0x005c36                  _nrf24l01_csn_pin_active
+                  0x005c52                  _nrf24l01_set_tx_addr
+                  0x005c64                  _nrf24l01_set_rx_addr
+                  0x005c80                  _nrf24l01_set_rx_pw
+                  0x005ca4                  _nrf24l01_get_rx_pw
+                  0x005cca                  _nrf24l01_get_config
+                  0x005cdc                  _nrf24l01_set_config
+                  0x005cec                  _nrf24l01_get_rf_ch
+                  0x005cfe                  _nrf24l01_set_rf_ch
+                  0x005d16                  _nrf24l01_get_observe_tx
+                  0x005d28                  _nrf24l01_get_plos_cnt
+                  0x005d42                  _nrf24l01_clear_plos_cnt
+                  0x005d58                  _nrf24l01_clear_plos_cnt_param
+                  0x005d68                  _nrf24l01_get_arc_cnt
+                  0x005d7c                  _nrf24l01_aa_enabled
+                  0x005dac                  _nrf24l01_aa_enable
+                  0x005dea                  _nrf24l01_aa_disable
+                  0x005e2a                  _nrf24l01_rx_pipe_enabled
+                  0x005e5a                  _nrf24l01_rx_pipe_enable
+                  0x005e98                  _nrf24l01_rx_pipe_disable
+                  0x005ed8                  _nrf24l01_cd_active
+                  0x005eea                  _nrf24l01_get_fifo_status
+                  0x005efc                  _nrf24l01_get_status
+                  0x005f06                  _nrf24l01_fifo_tx_reuse
+                  0x005f1c                  _nrf24l01_fifo_tx_full
+                  0x005f32                  _nrf24l01_fifo_tx_empty
+                  0x005f46                  _nrf24l01_fifo_rx_full
+                  0x005f5a                  _nrf24l01_fifo_rx_empty
+                  0x005f6e                  _nrf24l01_irq_pin_active
+                  0x005f88                  _nrf24l01_irq_rx_dr_active
+                  0x005f96                  _nrf24l01_irq_tx_ds_active
+                  0x005fa4                  _nrf24l01_irq_max_rt_active
+                  0x005fb0                  _nrf24l01_irq_clear_all
+                  0x005fc2                  _nrf24l01_irq_clear_rx_dr
+                  0x005fd4                  _nrf24l01_irq_clear_tx_ds
+                  0x005fe6                  _nrf24l01_irq_clear_max_rt
+                  0x005ff8                  _nrf24l01_get_rx_pipe
+                  0x006004                  _nrf24l01_get_rx_pipe_from_status
+                  0x006014                  _nrf24l01_clear_flush
+                  0x006020                  _nrf24l01_get_all_registers
+                  0x006082                  _nrf24l01_execute_command
+                  0x0060ac                  _nrf24l01_spi_send_read
+                  0x00627a                  _MACProcess
+                  0x0062ae                  _WFGetTCBSize
+                  0x0062b6                  _MACInit
+                  0x0062c0                  _RawInit
+                  0x00630a                  _MACIsLinked
+                  0x006314                  _MACIsTxReady
+                  0x006360                  _WFisTxMgmtReady
+                  0x006394                  _WFFreeMgmtTx
+                  0x0063c6                  _SendRAWManagementFrame
+                  0x0063d6                  _RawGetMgmtRxBuffer
+                  0x006404                  _SetRawRxMgmtInProgress
+                  0x006418                  _isRawRxMgmtInProgress
+                  0x006420                  _MACDiscardRx
+                  0x00642a                  _MACGetFreeRxSize
+                  0x006486                  _MACGetHeader
+                  0x006582                  _MACPutHeader
+                  0x0065e0                  _MACFlush
+                  0x006614                  _MACSetReadPtrInRx
+                  0x006626                  _MACSetWritePtr
+                  0x00663c                  _MACSetReadPtr
+                  0x006652                  _MACCalcRxChecksum
+                  0x00667e                  _MACMemCopyAsync
+                  0x006898                  _MACIsMemCopyDone
+                  0x0068a0                  _MACGet
+                  0x0068c6                  _MACGetArray
+                  0x006910                  _MACPut
+                  0x006938                  _MACPutArray
+                  0x006960                  _CalcIPBufferChecksum
+                  0x0069f6                  _MACPowerDown
+                  0x0069fc                  _MACPowerUp
+                  0x006a02                  _LFSRSeedRand
+                  0x006a42                  _LFSRRand
+                  0x006ab0                  _GenerateRandomDWORD
+                  0x006ba6                  _StringToIPAddress
+                  0x006d2e                  _uitoa
+                  0x006dac                  _hexatob
+                  0x006e22                  _btohexa_high
+                  0x006e4a                  _btohexa_low
+                  0x006e70                  _stricmppgm2ram
+                  0x006f08                  _swaps
+                  0x006f22                  _swapl
+                  0x006f80                  _CalcIPChecksum
+                  0x006ff4                  _strupr
+                  0x00702e                  _FormatNetBIOSName
+                  0x007076                  _strnchr
+                  0x0070bc                  _strncpy_m
+                  0x007126                  __DefaultInterrupt
+                  0x00713a                  __OscillatorFail
+                  0x00714e                  __AddressError
+                  0x007162                  __StackError
+                  0x007176                  __MathError
+                  0x00718a                  _LEDtest
+                  0x0071b0                  _InitializeSPI2
+                  0x0071c4                  _InitRFbuffer
+                  0x0071e0                  _InitBlobArray
+                  0x007202                  _test_xmit
+                  0x00725c                  _nordic_XMIT
+                  0x00730c                  _blob_xmit
+                  0x0073a4                  _main
+                  0x007582                  _DisplayIPValue
+                  0x0077ce                  _UDPInit
+                  0x0077e8                  _UDPOpenEx
+                  0x0078c6                  _UDPTask
+                  0x0079ee                  _UDPIsOpened
+                  0x007a10                  _UDPClose
+                  0x007a48                  _UDPSetTxBuffer
+                  0x007a5c                  _UDPSetRxBuffer
+                  0x007a70                  _UDPIsPutReady
+                  0x007aa6                  _UDPPut
+                  0x007ada                  _UDPPutArray
+                  0x007b12                  _UDPPutString
+                  0x007b28                  _UDPFlush
+                  0x007b84                  _UDPIsGetReady
+                  0x007bb4                  _UDPGet
+                  0x007bea                  _UDPGetArray
+                  0x007c34                  _UDPDiscard
+                  0x007c50                  _UDPProcess
+                  0x007e10                  _WiFiTask
+                  0x007e98                  _SignalDHCPSuccessful
+                  0x007ea6                  _SetDhcpProgressState
+                  0x007ebe                  _SignalWiFiConnectionChanged
+                  0x007ece                  _WFProcess
+                  0x007f6c                  _Read8BitWFRegister
+                  0x007f92                  _Write8BitWFRegister
+                  0x007fb8                  _Read16BitWFRegister
+                  0x007fe6                  _Write16BitWFRegister
+                  0x008012                  _WriteWFArray
+                  0x008046                  _ReadWFArray
+                  0x00815c                  _WFEintHandler
+                  0x0081da                  _ReenablePowerSaveMode
+                  0x0081e0                  _WFHardwareInit
+                  0x00823e                  _ARPSendPkt
+                  0x0082fa                  _ARPInit
+                  0x008340                  _ARPProcess
+                  0x008440                  _ARPResolve
+                  0x00850c                  _ARPIsResolved
+                  0x008606                  _SwapARPPacket
+                  0x008638                  _WF_CASetElements
+                  0x0086da                  _WF_CASetElementsN
+                  0x0086f8                  _WF_CAGetElements
+                  0x008742                  _WF_CASetScanType
+                  0x008752                  _WF_CAGetScanType
+                  0x008764                  _WF_CASetMinChannelTime
+                  0x00877e                  _WF_CAGetMinChannelTime
+                  0x00879e                  _WF_CASetMaxChannelTime
+                  0x0087b8                  _WF_CAGetMaxChannelTime
+                  0x0087d8                  _WF_CASetProbeDelay
+                  0x0087f2                  _WF_CAGetProbeDelay
+                  0x008812                  _WF_CASetScanCount
+                  0x008822                  _WF_CAGetScanCount
+                  0x008834                  _WF_CASetRssi
+                  0x008844                  _WF_CAGetRssi
+                  0x008856                  _WF_CASetConnectionProfileList
+                  0x00885e                  _WF_CAGetConnectionProfileList
+                  0x008866                  _WF_CASetListRetryCount
+                  0x008876                  _WF_CAGetListRetryCount
+                  0x008888                  _WF_CASetEventNotificationAction
+                  0x008894                  _WF_CAGetEventNotificationAction
+                  0x0088a4                  _WF_CASetBeaconTimeoutAction
+                  0x0088b4                  _WF_CAGetBeaconTimeoutAction
+                  0x0088c6                  _WF_CASetDeauthAction
+                  0x0088d6                  _WF_CAGetDeauthAction
+                  0x0088e8                  _WF_CASetChannelList
+                  0x0088fa                  _WF_CAGetChannelList
+                  0x008936                  _WF_CASetListenInterval
+                  0x008950                  _WF_CAGetListenInterval
+                  0x008970                  _WF_CASetBeaconTimeout
+                  0x008980                  _WF_CAGetBeaconTimeout
+                  0x00899e                  _GetEventNotificationMask
+                  0x008a1e                  _WF_DisableModuleConnectionManager
+                  0x008a30                  _AllocateMgmtTxBuffer
+                  0x008a78                  _DeallocateMgmtRxBuffer
+                  0x008a92                  _AllocateDataTxBuffer
+                  0x008ade                  _DeallocateDataTxBuffer
+                  0x008af6                  _DeallocateDataRxBuffer
+                  0x008b06                  _RawSendTxBuffer
+                  0x008b20                  _RawMountRxBuffer
+                  0x008b3c                  _RawToRawCopy
+                  0x008b50                  _PushRawWindow
+                  0x008b62                  _PopRawWindow
+                  0x008b7a                  _ScratchMount
+                  0x008bb4                  _ScratchUnmount
+                  0x008bd4                  _RawRead
+                  0x008bf0                  _RawWrite
+                  0x008c80                  _RawSetIndex
+                  0x008cf8                  _RawGetIndex
+                  0x008d1e                  _RawGetByte
+                  0x008d54                  _RawSetByte
+                  0x008df6                  _SendRAWDataFrame
+                  0x008e14                  _WF_CPCreate
+                  0x008e42                  _WF_CPDelete
+                  0x008e66                  _WF_CPGetIds
+                  0x008e8e                  _WF_CPSetElements
+                  0x008eb2                  _WF_CPGetElements
+                  0x008ec8                  _WF_CPSetSsidType
+                  0x008edc                  _WF_CPGetSsidType
+                  0x008ef2                  _WF_CPSetSsid
+                  0x008f08                  _WF_CPGetSsid
+                  0x008f48                  _WF_CPSetBssid
+                  0x008f5c                  _WF_CPGetBssid
+                  0x008f72                  _WF_CPSetNetworkType
+                  0x008f86                  _WF_CPGetNetworkType
+                  0x008f9c                  _WF_CPSetWepKeyType
+                  0x008fb0                  _WF_CPGetWepKeyType
+                  0x008fc6                  _WF_CPSetSecurity
+                  0x00903e                  _WF_CPGetSecurity
+                  0x0090a8                  _WF_CPSetDefaultWepKeyIndex
+                  0x0090bc                  _WF_CPGetDefaultWepKeyIndex
+                  0x0090d2                  _WF_CPSetAdHocBehavior
+                  0x0090e6                  _WF_CPGetAdHocBehavior
+                  0x00917a                  _WFEnableMRF24WB0MMode
+                  0x00918c                  _WFEnableBroadcastProbeResponse
+                  0x00919e                  _WF_SetLinkDownThreshold
+                  0x0091ae                  _WFEnableDeferredPowerSave
+                  0x0091c0                  _WF_GetDeviceInfo
+                  0x0091e2                  _WF_SetMacAddress
+                  0x0091f2                  _WF_GetMacAddress
+                  0x009202                  _WF_SetMultiCastFilter
+                  0x009264                  _WF_GetMultiCastFilter
+                  0x0092bc                  _WF_SetTxDataConfirm
+                  0x0092cc                  _WF_GetTxDataConfirm
+                  0x0092dc                  _WF_SetRegionalDomain
+                  0x0092ec                  _WF_GetRegionalDomain
+                  0x0092fc                  _WF_SetRtsThreshold
+                  0x009316                  _WF_GetRtsThreshold
+                  0x009334                  _WF_GetMacStats
+                  0x009468                  _SendSetParamMsg
+                  0x009498                  _SendGetParamMsg
+                  0x0094cc                  _OSC_update_namespace
+                  0x00952c                  _OSC_xmit_arp
+                  0x009560                  _OSC_accl
+                  0x009624                  _OSCServer
+                  0x00995c                  _WFProcessMgmtIndicateMsg
+                  0x009b50                  _IPGetHeader
+                  0x009c5c                  _IPPutHeader
+                  0x009cfa                  _IPSetRxBuffer
+                  0x009d3e                  _StackInit
+                  0x009d6a                  _StackTask
+                  0x009eda                  _StackApplications
+                  0x009eec                  _AnnounceIP
+                  0x009f78                  _DiscoveryTask
+                  0x00a05e                  _WFConfigureLowPowerMode
+                  0x00a09e                  _WF_PsPollEnable
+                  0x00a0e6                  _isSleepNeeded
+                  0x00a0ee                  _ClearSleepNeeded
+                  0x00a0f8                  _SetSleepNeeded
+                  0x00a102                  _SetAppPowerSaveMode
+                  0x00a10e                  _GetAppPowerSaveMode
+                  0x00a116                  _WF_PsPollDisable
+                  0x00a138                  _WF_GetPowerSaveState
+                  0x00a148                  _WFisPsPollEnabled
+                  0x00a166                  _WFIsPsPollActive
+                  0x00a16e                  _EnsureWFisAwake
+                  0x00a18c                  _WF_HibernateEnable
+                  0x00a1ba                  _SetPowerSaveState
+                  0x00a1c6                  _SendMgmtMsg
+                  0x00a24a                  _SignalMgmtConfirmReceivedEvent
+                  0x00a254                  _WaitForMgmtResponse
+                  0x00a2cc                  _WaitForMgmtResponseAndReadData
+                  0x00a31c                  _TickInit
+                  0x00a39c                  _TickGet
+                  0x00a3c4                  _TickGetDiv256
+                  0x00a3ec                  _TickGetDiv64K
+                  0x00a414                  _TickConvertToMilliseconds
+                  0x00a43a                  __T1Interrupt
+                  0x00a452                  _WF_CMConnect
+                  0x00a4a2                  _WF_CMDisconnect
+                  0x00a4da                  _WF_CMGetConnectionState
+                  0x00a530                  _WFisConnected
+                  0x00a538                  _SetLogicalConnectionState
+                  0x00a544                  _WF_CMCheckConnectionState
+                  0x00a580                  _ConvertASCIIHexToBinary
+                  0x00a624                  _HexToBin
+                  0x00a668                  _WF_TxPowerSetMinMax
+                  0x00a6b8                  _WF_TxPowerGetMinMax
+                  0x00a700                  _WF_FixTxRateWithMaxPower
+                  0x00a726                  _WF_TxPowerGetFactoryMax
+                  0x00a766                  _WF_Scan
+                  0x00a7b8                  _WF_ScanGetResult
+                  0x00a808                  _WF_SpiInit
+                  0x00a828                  _WF_SpiEnableChipSelect
+                  0x00a830                  _WF_SpiDisableChipSelect
+                  0x00a83a                  _WFSpiTxRx
+                  0x00a8c6                  _WF_EintIsDisabled
+                  0x00a8d8                  _WF_EintIsPending
+                  0x00a8fc                  __INT1Interrupt
+                  0x00a936                  _WF_EintEnable
+                  0x00a94a                  _WF_EintDisable
+                  0x00a952                  _WF_EintInit
+                  0x00a964                  _convertAsciiToHexInPlace
+                  0x00a9e8                  _ICMPProcess
+                  0x00aa66                  _WF_Init
+                  0x00aac4                  _zgzc_wait_for
+                  0x00ab1c                  _DelayMs
+                  0x00ab46                  _Delay10us
+                  0x00ab72                  _spi1_send_read_byte
+                  0x00ab94                  _WF_ProcessEvent
+
+External Symbols in Program Memory (by name):
+
+                  0x0082fa                  _ARPInit
+                  0x00850c                  _ARPIsResolved
+                  0x008340                  _ARPProcess
+                  0x008440                  _ARPResolve
+                  0x00823e                  _ARPSendPkt
+                  0x008a92                  _AllocateDataTxBuffer
+                  0x008a30                  _AllocateMgmtTxBuffer
+                  0x009eec                  _AnnounceIP
+                  0x006960                  _CalcIPBufferChecksum
+                  0x006f80                  _CalcIPChecksum
+                  0x00a0ee                  _ClearSleepNeeded
+                  0x00a580                  _ConvertASCIIHexToBinary
+                  0x004c98                  _DHCPServerTask
+                  0x0056fa                  _DHCPServer_Disable
+                  0x005714                  _DHCPServer_Enable
+                  0x008af6                  _DeallocateDataRxBuffer
+                  0x008ade                  _DeallocateDataTxBuffer
+                  0x008a78                  _DeallocateMgmtRxBuffer
+                  0x00ab46                  _Delay10us
+                  0x00ab1c                  _DelayMs
+                  0x005724                  _DelayUS
+                  0x009f78                  _DiscoveryTask
+                  0x007582                  _DisplayIPValue
+                  0x00a16e                  _EnsureWFisAwake
+                  0x00702e                  _FormatNetBIOSName
+                  0x006ab0                  _GenerateRandomDWORD
+                  0x00a10e                  _GetAppPowerSaveMode
+                  0x00899e                  _GetEventNotificationMask
+                  0x00a624                  _HexToBin
+                  0x00a9e8                  _ICMPProcess
+                  0x009b50                  _IPGetHeader
+                  0x009c5c                  _IPPutHeader
+                  0x009cfa                  _IPSetRxBuffer
+                  0x0071e0                  _InitBlobArray
+                  0x0071c4                  _InitRFbuffer
+                  0x0071b0                  _InitializeSPI2
+                  0x00718a                  _LEDtest
+                  0x006a42                  _LFSRRand
+                  0x006a02                  _LFSRSeedRand
+                  0x006652                  _MACCalcRxChecksum
+                  0x006420                  _MACDiscardRx
+                  0x0065e0                  _MACFlush
+                  0x0068a0                  _MACGet
+                  0x0068c6                  _MACGetArray
+                  0x00642a                  _MACGetFreeRxSize
+                  0x006486                  _MACGetHeader
+                  0x0062b6                  _MACInit
+                  0x00630a                  _MACIsLinked
+                  0x006898                  _MACIsMemCopyDone
+                  0x006314                  _MACIsTxReady
+                  0x00667e                  _MACMemCopyAsync
+                  0x0069f6                  _MACPowerDown
+                  0x0069fc                  _MACPowerUp
+                  0x00627a                  _MACProcess
+                  0x006910                  _MACPut
+                  0x006938                  _MACPutArray
+                  0x006582                  _MACPutHeader
+                  0x00663c                  _MACSetReadPtr
+                  0x006614                  _MACSetReadPtrInRx
+                  0x006626                  _MACSetWritePtr
+                  0x009624                  _OSCServer
+                  0x009560                  _OSC_accl
+                  0x0094cc                  _OSC_update_namespace
+                  0x00952c                  _OSC_xmit_arp
+                  0x008b62                  _PopRawWindow
+                  0x008b50                  _PushRawWindow
+                  0x008d1e                  _RawGetByte
+                  0x008cf8                  _RawGetIndex
+                  0x0063d6                  _RawGetMgmtRxBuffer
+                  0x0062c0                  _RawInit
+                  0x008b20                  _RawMountRxBuffer
+                  0x008bd4                  _RawRead
+                  0x008b06                  _RawSendTxBuffer
+                  0x008d54                  _RawSetByte
+                  0x008c80                  _RawSetIndex
+                  0x008b3c                  _RawToRawCopy
+                  0x008bf0                  _RawWrite
+                  0x007fb8                  _Read16BitWFRegister
+                  0x007f6c                  _Read8BitWFRegister
+                  0x008046                  _ReadWFArray
+                  0x0081da                  _ReenablePowerSaveMode
+                  0x008b7a                  _ScratchMount
+                  0x008bb4                  _ScratchUnmount
+                  0x009498                  _SendGetParamMsg
+                  0x00a1c6                  _SendMgmtMsg
+                  0x008df6                  _SendRAWDataFrame
+                  0x0063c6                  _SendRAWManagementFrame
+                  0x009468                  _SendSetParamMsg
+                  0x00a102                  _SetAppPowerSaveMode
+                  0x007ea6                  _SetDhcpProgressState
+                  0x00a538                  _SetLogicalConnectionState
+                  0x00a1ba                  _SetPowerSaveState
+                  0x006404                  _SetRawRxMgmtInProgress
+                  0x00a0f8                  _SetSleepNeeded
+                  0x007e98                  _SignalDHCPSuccessful
+                  0x00a24a                  _SignalMgmtConfirmReceivedEvent
+                  0x007ebe                  _SignalWiFiConnectionChanged
+                  0x009eda                  _StackApplications
+                  0x009d3e                  _StackInit
+                  0x009d6a                  _StackTask
+                  0x006ba6                  _StringToIPAddress
+                  0x008606                  _SwapARPPacket
+                  0x002f4e                  _TCPAdjustFIFOSize
+                  0x0012b4                  _TCPClose
+                  0x00152e                  _TCPDiscard
+                  0x00121c                  _TCPDisconnect
+                  0x0017a0                  _TCPFindArrayEx
+                  0x001a2a                  _TCPFindEx
+                  0x0012f8                  _TCPFlush
+                  0x00158a                  _TCPGet
+                  0x0015f4                  _TCPGetArray
+                  0x0012cc                  _TCPGetRemoteInfo
+                  0x0016b0                  _TCPGetRxFIFOFree
+                  0x001500                  _TCPGetTxFIFOFull
+                  0x000fd2                  _TCPInit
+                  0x0011f4                  _TCPIsConnected
+                  0x00154c                  _TCPIsGetReady
+                  0x00131a                  _TCPIsPutReady
+                  0x0010b6                  _TCPOpen
+                  0x001788                  _TCPPeek
+                  0x0016dc                  _TCPPeekArray
+                  0x001e42                  _TCPProcess
+                  0x001370                  _TCPPut
+                  0x001408                  _TCPPutArray
+                  0x0014e2                  _TCPPutString
+                  0x000f1c                  _TCPSocketInitializer
+                  0x001a48                  _TCPTick
+                  0x0011c4                  _TCPWasReset
+                  0x00a414                  _TickConvertToMilliseconds
+                  0x00a39c                  _TickGet
+                  0x00a3c4                  _TickGetDiv256
+                  0x00a3ec                  _TickGetDiv64K
+                  0x00a31c                  _TickInit
+                  0x007a10                  _UDPClose
+                  0x007c34                  _UDPDiscard
+                  0x007b28                  _UDPFlush
+                  0x007bb4                  _UDPGet
+                  0x007bea                  _UDPGetArray
+                  0x0077ce                  _UDPInit
+                  0x007b84                  _UDPIsGetReady
+                  0x0079ee                  _UDPIsOpened
+                  0x007a70                  _UDPIsPutReady
+                  0x0077e8                  _UDPOpenEx
+                  0x007c50                  _UDPProcess
+                  0x007aa6                  _UDPPut
+                  0x007ada                  _UDPPutArray
+                  0x007b12                  _UDPPutString
+                  0x007a5c                  _UDPSetRxBuffer
+                  0x007a48                  _UDPSetTxBuffer
+                  0x0078c6                  _UDPTask
+                  0x00a05e                  _WFConfigureLowPowerMode
+                  0x00815c                  _WFEintHandler
+                  0x00918c                  _WFEnableBroadcastProbeResponse
+                  0x0091ae                  _WFEnableDeferredPowerSave
+                  0x00917a                  _WFEnableMRF24WB0MMode
+                  0x006394                  _WFFreeMgmtTx
+                  0x0062ae                  _WFGetTCBSize
+                  0x0081e0                  _WFHardwareInit
+                  0x00a166                  _WFIsPsPollActive
+                  0x007ece                  _WFProcess
+                  0x00995c                  _WFProcessMgmtIndicateMsg
+                  0x00a83a                  _WFSpiTxRx
+                  0x008980                  _WF_CAGetBeaconTimeout
+                  0x0088b4                  _WF_CAGetBeaconTimeoutAction
+                  0x0088fa                  _WF_CAGetChannelList
+                  0x00885e                  _WF_CAGetConnectionProfileList
+                  0x0088d6                  _WF_CAGetDeauthAction
+                  0x0086f8                  _WF_CAGetElements
+                  0x008894                  _WF_CAGetEventNotificationAction
+                  0x008876                  _WF_CAGetListRetryCount
+                  0x008950                  _WF_CAGetListenInterval
+                  0x0087b8                  _WF_CAGetMaxChannelTime
+                  0x00877e                  _WF_CAGetMinChannelTime
+                  0x0087f2                  _WF_CAGetProbeDelay
+                  0x008844                  _WF_CAGetRssi
+                  0x008822                  _WF_CAGetScanCount
+                  0x008752                  _WF_CAGetScanType
+                  0x008970                  _WF_CASetBeaconTimeout
+                  0x0088a4                  _WF_CASetBeaconTimeoutAction
+                  0x0088e8                  _WF_CASetChannelList
+                  0x008856                  _WF_CASetConnectionProfileList
+                  0x0088c6                  _WF_CASetDeauthAction
+                  0x008638                  _WF_CASetElements
+                  0x0086da                  _WF_CASetElementsN
+                  0x008888                  _WF_CASetEventNotificationAction
+                  0x008866                  _WF_CASetListRetryCount
+                  0x008936                  _WF_CASetListenInterval
+                  0x00879e                  _WF_CASetMaxChannelTime
+                  0x008764                  _WF_CASetMinChannelTime
+                  0x0087d8                  _WF_CASetProbeDelay
+                  0x008834                  _WF_CASetRssi
+                  0x008812                  _WF_CASetScanCount
+                  0x008742                  _WF_CASetScanType
+                  0x00a544                  _WF_CMCheckConnectionState
+                  0x00a452                  _WF_CMConnect
+                  0x00a4a2                  _WF_CMDisconnect
+                  0x00a4da                  _WF_CMGetConnectionState
+                  0x008e14                  _WF_CPCreate
+                  0x008e42                  _WF_CPDelete
+                  0x0090e6                  _WF_CPGetAdHocBehavior
+                  0x008f5c                  _WF_CPGetBssid
+                  0x0090bc                  _WF_CPGetDefaultWepKeyIndex
+                  0x008eb2                  _WF_CPGetElements
+                  0x008e66                  _WF_CPGetIds
+                  0x008f86                  _WF_CPGetNetworkType
+                  0x00903e                  _WF_CPGetSecurity
+                  0x008f08                  _WF_CPGetSsid
+                  0x008edc                  _WF_CPGetSsidType
+                  0x008fb0                  _WF_CPGetWepKeyType
+                  0x0090d2                  _WF_CPSetAdHocBehavior
+                  0x008f48                  _WF_CPSetBssid
+                  0x0090a8                  _WF_CPSetDefaultWepKeyIndex
+                  0x008e8e                  _WF_CPSetElements
+                  0x008f72                  _WF_CPSetNetworkType
+                  0x008fc6                  _WF_CPSetSecurity
+                  0x008ef2                  _WF_CPSetSsid
+                  0x008ec8                  _WF_CPSetSsidType
+                  0x008f9c                  _WF_CPSetWepKeyType
+                  0x008a1e                  _WF_DisableModuleConnectionManager
+                  0x00a94a                  _WF_EintDisable
+                  0x00a936                  _WF_EintEnable
+                  0x00a952                  _WF_EintInit
+                  0x00a8c6                  _WF_EintIsDisabled
+                  0x00a8d8                  _WF_EintIsPending
+                  0x00a700                  _WF_FixTxRateWithMaxPower
+                  0x0091c0                  _WF_GetDeviceInfo
+                  0x0091f2                  _WF_GetMacAddress
+                  0x009334                  _WF_GetMacStats
+                  0x009264                  _WF_GetMultiCastFilter
+                  0x00a138                  _WF_GetPowerSaveState
+                  0x0092ec                  _WF_GetRegionalDomain
+                  0x009316                  _WF_GetRtsThreshold
+                  0x0092cc                  _WF_GetTxDataConfirm
+                  0x00a18c                  _WF_HibernateEnable
+                  0x00aa66                  _WF_Init
+                  0x00ab94                  _WF_ProcessEvent
+                  0x00a116                  _WF_PsPollDisable
+                  0x00a09e                  _WF_PsPollEnable
+                  0x00a766                  _WF_Scan
+                  0x00a7b8                  _WF_ScanGetResult
+                  0x00919e                  _WF_SetLinkDownThreshold
+                  0x0091e2                  _WF_SetMacAddress
+                  0x009202                  _WF_SetMultiCastFilter
+                  0x0092dc                  _WF_SetRegionalDomain
+                  0x0092fc                  _WF_SetRtsThreshold
+                  0x0092bc                  _WF_SetTxDataConfirm
+                  0x00a830                  _WF_SpiDisableChipSelect
+                  0x00a828                  _WF_SpiEnableChipSelect
+                  0x00a808                  _WF_SpiInit
+                  0x00a726                  _WF_TxPowerGetFactoryMax
+                  0x00a6b8                  _WF_TxPowerGetMinMax
+                  0x00a668                  _WF_TxPowerSetMinMax
+                  0x00a530                  _WFisConnected
+                  0x00a148                  _WFisPsPollEnabled
+                  0x006360                  _WFisTxMgmtReady
+                  0x00a254                  _WaitForMgmtResponse
+                  0x00a2cc                  _WaitForMgmtResponseAndReadData
+                  0x007e10                  _WiFiTask
+                  0x007fe6                  _Write16BitWFRegister
+                  0x007f92                  _Write8BitWFRegister
+                  0x008012                  _WriteWFArray
+                  0x00714e                  __AddressError
+                  0x007126                  __DefaultInterrupt
+                  0x00a8fc                  __INT1Interrupt
+                  0x007176                  __MathError
+                  0x00713a                  __OscillatorFail
+                  0x007162                  __StackError
+                  0x00a43a                  __T1Interrupt
+                  0x000424                  ___divdi3
+                  0x00045e                  ___moddi3
+                  0x000530                  ___muldi3
+                  0x00040e                  ___udivdi3
+                  0x000340                  ___udivmoddi3
+                  0x00041c                  ___umoddi3
+                  0x00058c                  ___umuldi3
+                  0x000232                  __data_init
+                  0x000232                  __data_init_standard
+                  0x000222                  __psv_init
+                  0x000200                  __resetPRI
+                  0x00068e                  __sprintf_cdnopuxX
+                  0x0006bc                  __vfprintf_cdnopuxX
+                  0x00730c                  _blob_xmit
+                  0x006e22                  _btohexa_high
+                  0x006e4a                  _btohexa_low
+                  0x000d89                  _clsCmd
+                  0x000d8d                  _clsHelp
+                  0x00a964                  _convertAsciiToHexInPlace
+                  0x000dc4                  _g_consoleCmd
+                  0x000de2                  _g_numCmds
+                  0x000d52                  _getwfverCmd
+                  0x000d5b                  _getwfverHelp
+                  0x000d3a                  _helpCmd
+                  0x000d3f                  _helpHelp
+                  0x006dac                  _hexatob
+                  0x006418                  _isRawRxMgmtInProgress
+                  0x00a0e6                  _isSleepNeeded
+                  0x000290                  _isxdigit
+                  0x003c28                  _mDNSAnnounce
+                  0x004c0a                  _mDNSDumpInfo
+                  0x004622                  _mDNSFillHostRecord
+                  0x0046b4                  _mDNSHostRegister
+                  0x00472c                  _mDNSInitialize
+                  0x004bf2                  _mDNSMulticastFilterRegister
+                  0x004adc                  _mDNSProcess
+                  0x0047be                  _mDNSProcessInternal
+                  0x0037e4                  _mDNSSDFillResRecords
+                  0x003a7e                  _mDNSServiceDeRegister
+                  0x003b2c                  _mDNSServiceRegister
+                  0x0039dc                  _mDNSServiceUpdate
+                  0x0073a4                  _main
+                  0x00064c                  _memcmp
+                  0x000680                  _memcpy
+                  0x000610                  _memset
+                  0x00725c                  _nordic_XMIT
+                  0x005dea                  _nrf24l01_aa_disable
+                  0x005dac                  _nrf24l01_aa_enable
+                  0x005d7c                  _nrf24l01_aa_enabled
+                  0x005ed8                  _nrf24l01_cd_active
+                  0x005c00                  _nrf24l01_ce_pin_active
+                  0x005be4                  _nrf24l01_clear_ce
+                  0x005c1c                  _nrf24l01_clear_csn
+                  0x006014                  _nrf24l01_clear_flush
+                  0x005d42                  _nrf24l01_clear_plos_cnt
+                  0x005d58                  _nrf24l01_clear_plos_cnt_param
+                  0x005c36                  _nrf24l01_csn_pin_active
+                  0x006082                  _nrf24l01_execute_command
+                  0x005f5a                  _nrf24l01_fifo_rx_empty
+                  0x005f46                  _nrf24l01_fifo_rx_full
+                  0x005f32                  _nrf24l01_fifo_tx_empty
+                  0x005f1c                  _nrf24l01_fifo_tx_full
+                  0x005f06                  _nrf24l01_fifo_tx_reuse
+                  0x005b9e                  _nrf24l01_flush_rx
+                  0x005b8c                  _nrf24l01_flush_tx
+                  0x006020                  _nrf24l01_get_all_registers
+                  0x005d68                  _nrf24l01_get_arc_cnt
+                  0x005cca                  _nrf24l01_get_config
+                  0x005eea                  _nrf24l01_get_fifo_status
+                  0x005d16                  _nrf24l01_get_observe_tx
+                  0x005d28                  _nrf24l01_get_plos_cnt
+                  0x005cec                  _nrf24l01_get_rf_ch
+                  0x005ff8                  _nrf24l01_get_rx_pipe
+                  0x006004                  _nrf24l01_get_rx_pipe_from_status
+                  0x005ca4                  _nrf24l01_get_rx_pw
+                  0x005efc                  _nrf24l01_get_status
+                  0x005750                  _nrf24l01_initialize
+                  0x0058be                  _nrf24l01_initialize_debug
+                  0x005946                  _nrf24l01_initialize_debug_lite
+                  0x005fb0                  _nrf24l01_irq_clear_all
+                  0x005fe6                  _nrf24l01_irq_clear_max_rt
+                  0x005fc2                  _nrf24l01_irq_clear_rx_dr
+                  0x005fd4                  _nrf24l01_irq_clear_tx_ds
+                  0x005fa4                  _nrf24l01_irq_max_rt_active
+                  0x005f6e                  _nrf24l01_irq_pin_active
+                  0x005f88                  _nrf24l01_irq_rx_dr_active
+                  0x005f96                  _nrf24l01_irq_tx_ds_active
+                  0x005bc2                  _nrf24l01_nop
+                  0x0059f0                  _nrf24l01_power_down
+                  0x005a1e                  _nrf24l01_power_down_param
+                  0x00596a                  _nrf24l01_power_up
+                  0x0059b6                  _nrf24l01_power_up_param
+                  0x005b12                  _nrf24l01_read_register
+                  0x005b70                  _nrf24l01_read_rx_payload
+                  0x005bb0                  _nrf24l01_reuse_tx_pl
+                  0x005a9e                  _nrf24l01_rx_active_to_standby
+                  0x005e98                  _nrf24l01_rx_pipe_disable
+                  0x005e5a                  _nrf24l01_rx_pipe_enable
+                  0x005e2a                  _nrf24l01_rx_pipe_enabled
+                  0x005a96                  _nrf24l01_rx_standby_to_active
+                  0x005a38                  _nrf24l01_set_as_rx
+                  0x005a6e                  _nrf24l01_set_as_rx_param
+                  0x005aa6                  _nrf24l01_set_as_tx
+                  0x005ad2                  _nrf24l01_set_as_tx_param
+                  0x005bf2                  _nrf24l01_set_ce
+                  0x005cdc                  _nrf24l01_set_config
+                  0x005c2a                  _nrf24l01_set_csn
+                  0x005cfe                  _nrf24l01_set_rf_ch
+                  0x005c64                  _nrf24l01_set_rx_addr
+                  0x005c80                  _nrf24l01_set_rx_pw
+                  0x005c52                  _nrf24l01_set_tx_addr
+                  0x0060ac                  _nrf24l01_spi_send_read
+                  0x005bd4                  _nrf24l01_transmit
+                  0x005af4                  _nrf24l01_write_register
+                  0x005b2c                  _nrf24l01_write_tx_payload
+                  0x005b4e                  _nrf24l01_write_tx_payload_noack
+                  0x000dad                  _pingCmd
+                  0x000db2                  _pingHelp
+                  0x0005d0                  _putsUART2
+                  0x000d74                  _resetCmd
+                  0x000d7a                  _resetHelp
+                  0x000d9b                  _seeDocHelp
+                  0x00ab72                  _spi1_send_read_byte
+                  0x006e70                  _stricmppgm2ram
+                  0x000604                  _strlen
+                  0x007076                  _strnchr
+                  0x00061e                  _strncpy
+                  0x0070bc                  _strncpy_m
+                  0x006ff4                  _strupr
+                  0x006f22                  _swapl
+                  0x006f08                  _swaps
+                  0x007202                  _test_xmit
+                  0x006d2e                  _uitoa
+                  0x00aac4                  _zgzc_wait_for
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+data             0x000800           0x002000           a !xr
+reset            0x000000           0x000004  
+ivt              0x000004           0x0000fc  
+_reserved        0x000100           0x000004  
+aivt             0x000104           0x0000fc  
+program          0x000200           0x00a9fa           xr
+CONFIG2          0x00abfc           0x000002  
+CONFIG1          0x00abfe           0x000002  
+*default*        0x000000           0xffffffff  
+
+Linker script and memory map
+
+LOAD Objects - ballonXmit\MainDemo.o
+LOAD Objects - ballonXmit\Tick.o
+LOAD Objects - ballonXmit\UART.o
+LOAD Objects - ballonXmit\UDP.o
+LOAD Objects - ballonXmit\Announce.o
+LOAD Objects - ballonXmit\Delay.o
+LOAD Objects - ballonXmit\DHCPs.o
+LOAD Objects - ballonXmit\Hashes.o
+LOAD Objects - ballonXmit\Helpers.o
+LOAD Objects - ballonXmit\ICMP.o
+LOAD Objects - ballonXmit\IP.o
+LOAD Objects - ballonXmit\StackTsk.o
+LOAD Objects - ballonXmit\TCP.o
+LOAD Objects - ballonXmit\WFTxPower.o
+LOAD Objects - ballonXmit\WF_Eint.o
+LOAD Objects - ballonXmit\WF_Spi.o
+LOAD Objects - ballonXmit\WFConnectionManager.o
+LOAD Objects - ballonXmit\WFConnectionProfile.o
+LOAD Objects - ballonXmit\WFDriverCom.o
+LOAD Objects - ballonXmit\WFEventHandler.o
+LOAD Objects - ballonXmit\WFInit.o
+LOAD Objects - ballonXmit\WFMac.o
+LOAD Objects - ballonXmit\WFParamMsg.o
+LOAD Objects - ballonXmit\WFPowerSave.o
+LOAD Objects - ballonXmit\WFScan.o
+LOAD Objects - ballonXmit\WF_Config.o
+LOAD Objects - ballonXmit\ZeroconfMulticastDNS.o
+LOAD Objects - ballonXmit\Balloon_OSC.o
+LOAD Objects - ballonXmit\nrf24l01.o
+LOAD Objects - ballonXmit\spi1.o
+LOAD Objects - ballonXmit\WFConnectionAlgorithm.o
+LOAD Objects - ballonXmit\WFMgmtMsg.o
+LOAD Objects - ballonXmit\ARP.o
+LOAD Objects - ballonXmit\WFDriverRaw.o
+LOAD Objects - ballonXmit\WF_pbkdf2.o
+LOAD Objects - ballonXmit\WFConsole.o
+LOAD Objects - ballonXmit\WFConsoleIfconfig.o
+LOAD Objects - ballonXmit\WFConsoleIwconfig.o
+LOAD Objects - ballonXmit\WFConsoleIwpriv.o
+LOAD Objects - ballonXmit\WFConsoleMsgHandler.o
+LOAD Objects - ballonXmit\WFConsoleMsgs.o
+LOAD Objects - ballonXmit\WFDataTxRx.o
+LOAD Objects - ballonXmit\WFDebugStrings.o
+LOAD Objects - ballonXmit\WFEasyConfig.o
+LOAD Objects - ballonXmit\ZeroconfLinkLocal.o
+LOAD Objects - ballonXmit\ZeroconfHelper.o
+LOAD c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib/PIC24F\libpPIC24Fxxx-coff.a
+                    0xabfc                  __CONFIG2 = 0xabfc
+                    0xabfe                  __CONFIG1 = 0xabfe
+                    0x0001                  __NO_HANDLES = 0x1
+                    0x0004                  __IVT_BASE = 0x4
+                    0x0104                  __AIVT_BASE = 0x104
+                    0x0800                  __DATA_BASE = 0x800
+                    0x2000                  __DATA_LENGTH = 0x2000
+                    0x0200                  __CODE_BASE = 0x200
+                    0xa9fc                  __CODE_LENGTH = 0xa9fc
+
+.reset            0x000000          0x4
+                  0x000000          0x2 SHORT 0x200 ABSOLUTE (__reset)
+                  0x000001          0x2 SHORT 0x4
+                  0x000002          0x2 SHORT 0x0 ((ABSOLUTE (__reset) >> 0x10) & 0x7f)
+                  0x000003          0x2 SHORT 0x0
+
+.text             0x000200        0xb3a
+ *(.init)
+ .init            0x000200         0x32 c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libpic30-coff.a(crt0_standard.o)
+                  0x000200                  _resetPRI
+                  0x000200                  _reset
+                  0x000222                  _psv_init
+ .init            0x000232         0x5e c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libpic30-coff.a(data_init_standard.o)
+                  0x000232                  _data_init_standard
+                  0x000232                  _data_init
+ *(.user_init)
+ *(.handle)
+ *(.isr*)
+ *(.libc)
+ .libc            0x000290         0x1c c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libc-coff.a(isxdigit.XXo)
+                  0x000290                  isxdigit
+ .libc            0x0002ac         0x6e c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libpic30-coff.a(write.o)
+                  0x0002ac                  write
+ *(.libm)
+ .libm            0x00031a        0x216 c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libm-coff.a(divmoddi3.o)
+                  0x000340                  __udivmoddi3
+                  0x00040e                  __udivdi3
+                  0x00041c                  __umoddi3
+                  0x000424                  __divdi3
+                  0x00045e                  __moddi3
+ .libm            0x000530         0x5c c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libm-coff.a(muldi3.o)
+                  0x000530                  __muldi3
+ .libm            0x00058c         0x44 c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libm-coff.a(umuldi3.o)
+                  0x00058c                  __umuldi3
+ *(.libdsp)
+ *(.lib*)
+ .libperi         0x0005d0         0x34 c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib/PIC24F\libpPIC24Fxxx-coff.a(putsUART2.o)
+                  0x0005d0                  putsUART2
+ .libc.strlen     0x000604          0xc c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libc-coff.a(strlen.XXo)
+                  0x000604                  strlen
+ .libc.memset     0x000610          0xe c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libc-coff.a(memset.XXo)
+                  0x000610                  memset
+ .libc.strncpy    0x00061e         0x2e c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libc-coff.a(strncpy.XXo)
+                  0x00061e                  strncpy
+ .libc.memcmp     0x00064c         0x34 c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libc-coff.a(memcmp.XXo)
+                  0x00064c                  memcmp
+ .libc.memcpy     0x000680          0xe c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libc-coff.a(memcpy.XXo)
+                  0x000680                  memcpy
+ .libc._sprintf_cdnopuxX
+                  0x00068e         0x2e c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libc-coff.a(sprintf_cdnopuxX.XXo)
+                  0x00068e                  _sprintf_cdnopuxX
+ .libc._vfprintf_cdnopuxX
+                  0x0006bc        0x56a c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libc-coff.a(doprnt_cdnopuxX.XXo)
+                  0x0006bc                  _vfprintf_cdnopuxX
+ .libc.fputc      0x000c26         0x8e c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libc-coff.a(fputc.XXo)
+                  0x000c26                  fputc
+ .libc._flsbuf    0x000cb4         0x86 c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libc-coff.a(flsbuf.XXo)
+                  0x000cb4                  _flsbuf
+
+usercode
+ *(usercode)
+
+__CONFIG2         0x00abfc          0x2
+ *(__CONFIG2.sec*)
+ __CONFIG2.sec    0x00abfc          0x2 Objects - ballonXmit\MainDemo.o
+
+__CONFIG1         0x00abfe          0x2
+ *(__CONFIG1.sec*)
+ __CONFIG1.sec    0x00abfe          0x2 Objects - ballonXmit\MainDemo.o
+
+.comment
+ *(.comment)
+
+.debug_info
+ *(.debug_info)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.ivt              0x000004         0xfc
+                  0x000004          0x4 LONG 0x7126 DEFINED (__ReservedTrap0)?ABSOLUTE (__ReservedTrap0):ABSOLUTE (__DefaultInterrupt)
+                  0x000006          0x4 LONG 0x713a DEFINED (__OscillatorFail)?ABSOLUTE (__OscillatorFail):ABSOLUTE (__DefaultInterrupt)
+                  0x000008          0x4 LONG 0x714e DEFINED (__AddressError)?ABSOLUTE (__AddressError):ABSOLUTE (__DefaultInterrupt)
+                  0x00000a          0x4 LONG 0x7162 DEFINED (__StackError)?ABSOLUTE (__StackError):ABSOLUTE (__DefaultInterrupt)
+                  0x00000c          0x4 LONG 0x7176 DEFINED (__MathError)?ABSOLUTE (__MathError):ABSOLUTE (__DefaultInterrupt)
+                  0x00000e          0x4 LONG 0x7126 DEFINED (__ReservedTrap5)?ABSOLUTE (__ReservedTrap5):ABSOLUTE (__DefaultInterrupt)
+                  0x000010          0x4 LONG 0x7126 DEFINED (__ReservedTrap6)?ABSOLUTE (__ReservedTrap6):ABSOLUTE (__DefaultInterrupt)
+                  0x000012          0x4 LONG 0x7126 DEFINED (__ReservedTrap7)?ABSOLUTE (__ReservedTrap7):ABSOLUTE (__DefaultInterrupt)
+                  0x000014          0x4 LONG 0x7126 DEFINED (__INT0Interrupt)?ABSOLUTE (__INT0Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000016          0x4 LONG 0x7126 DEFINED (__IC1Interrupt)?ABSOLUTE (__IC1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000018          0x4 LONG 0x7126 DEFINED (__OC1Interrupt)?ABSOLUTE (__OC1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00001a          0x4 LONG 0xa43a DEFINED (__T1Interrupt)?ABSOLUTE (__T1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00001c          0x4 LONG 0x7126 DEFINED (__Interrupt4)?ABSOLUTE (__Interrupt4):ABSOLUTE (__DefaultInterrupt)
+                  0x00001e          0x4 LONG 0x7126 DEFINED (__IC2Interrupt)?ABSOLUTE (__IC2Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000020          0x4 LONG 0x7126 DEFINED (__OC2Interrupt)?ABSOLUTE (__OC2Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000022          0x4 LONG 0x7126 DEFINED (__T2Interrupt)?ABSOLUTE (__T2Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000024          0x4 LONG 0x7126 DEFINED (__T3Interrupt)?ABSOLUTE (__T3Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000026          0x4 LONG 0x7126 DEFINED (__SPI1ErrInterrupt)?ABSOLUTE (__SPI1ErrInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000028          0x4 LONG 0x7126 DEFINED (__SPI1Interrupt)?ABSOLUTE (__SPI1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00002a          0x4 LONG 0x7126 DEFINED (__U1RXInterrupt)?ABSOLUTE (__U1RXInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00002c          0x4 LONG 0x7126 DEFINED (__U1TXInterrupt)?ABSOLUTE (__U1TXInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00002e          0x4 LONG 0x7126 DEFINED (__ADC1Interrupt)?ABSOLUTE (__ADC1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000030          0x4 LONG 0x7126 DEFINED (__Interrupt14)?ABSOLUTE (__Interrupt14):ABSOLUTE (__DefaultInterrupt)
+                  0x000032          0x4 LONG 0x7126 DEFINED (__Interrupt15)?ABSOLUTE (__Interrupt15):ABSOLUTE (__DefaultInterrupt)
+                  0x000034          0x4 LONG 0x7126 DEFINED (__SI2C1Interrupt)?ABSOLUTE (__SI2C1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000036          0x4 LONG 0x7126 DEFINED (__MI2C1Interrupt)?ABSOLUTE (__MI2C1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000038          0x4 LONG 0x7126 DEFINED (__CompInterrupt)?ABSOLUTE (__CompInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00003a          0x4 LONG 0x7126 DEFINED (__CNInterrupt)?ABSOLUTE (__CNInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00003c          0x4 LONG 0xa8fc DEFINED (__INT1Interrupt)?ABSOLUTE (__INT1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00003e          0x4 LONG 0x7126 DEFINED (__Interrupt21)?ABSOLUTE (__Interrupt21):ABSOLUTE (__DefaultInterrupt)
+                  0x000040          0x4 LONG 0x7126 DEFINED (__Interrupt22)?ABSOLUTE (__Interrupt22):ABSOLUTE (__DefaultInterrupt)
+                  0x000042          0x4 LONG 0x7126 DEFINED (__Interrupt23)?ABSOLUTE (__Interrupt23):ABSOLUTE (__DefaultInterrupt)
+                  0x000044          0x4 LONG 0x7126 DEFINED (__Interrupt24)?ABSOLUTE (__Interrupt24):ABSOLUTE (__DefaultInterrupt)
+                  0x000046          0x4 LONG 0x7126 DEFINED (__OC3Interrupt)?ABSOLUTE (__OC3Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000048          0x4 LONG 0x7126 DEFINED (__OC4Interrupt)?ABSOLUTE (__OC4Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00004a          0x4 LONG 0x7126 DEFINED (__T4Interrupt)?ABSOLUTE (__T4Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00004c          0x4 LONG 0x7126 DEFINED (__T5Interrupt)?ABSOLUTE (__T5Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00004e          0x4 LONG 0x7126 DEFINED (__INT2Interrupt)?ABSOLUTE (__INT2Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000050          0x4 LONG 0x7126 DEFINED (__U2RXInterrupt)?ABSOLUTE (__U2RXInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000052          0x4 LONG 0x7126 DEFINED (__U2TXInterrupt)?ABSOLUTE (__U2TXInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000054          0x4 LONG 0x7126 DEFINED (__SPI2ErrInterrupt)?ABSOLUTE (__SPI2ErrInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000056          0x4 LONG 0x7126 DEFINED (__SPI2Interrupt)?ABSOLUTE (__SPI2Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000058          0x4 LONG 0x7126 DEFINED (__Interrupt34)?ABSOLUTE (__Interrupt34):ABSOLUTE (__DefaultInterrupt)
+                  0x00005a          0x4 LONG 0x7126 DEFINED (__Interrupt35)?ABSOLUTE (__Interrupt35):ABSOLUTE (__DefaultInterrupt)
+                  0x00005c          0x4 LONG 0x7126 DEFINED (__Interrupt36)?ABSOLUTE (__Interrupt36):ABSOLUTE (__DefaultInterrupt)
+                  0x00005e          0x4 LONG 0x7126 DEFINED (__IC3Interrupt)?ABSOLUTE (__IC3Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000060          0x4 LONG 0x7126 DEFINED (__IC4Interrupt)?ABSOLUTE (__IC4Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000062          0x4 LONG 0x7126 DEFINED (__IC5Interrupt)?ABSOLUTE (__IC5Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000064          0x4 LONG 0x7126 DEFINED (__Interrupt40)?ABSOLUTE (__Interrupt40):ABSOLUTE (__DefaultInterrupt)
+                  0x000066          0x4 LONG 0x7126 DEFINED (__OC5Interrupt)?ABSOLUTE (__OC5Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000068          0x4 LONG 0x7126 DEFINED (__Interrupt42)?ABSOLUTE (__Interrupt42):ABSOLUTE (__DefaultInterrupt)
+                  0x00006a          0x4 LONG 0x7126 DEFINED (__Interrupt43)?ABSOLUTE (__Interrupt43):ABSOLUTE (__DefaultInterrupt)
+                  0x00006c          0x4 LONG 0x7126 DEFINED (__Interrupt44)?ABSOLUTE (__Interrupt44):ABSOLUTE (__DefaultInterrupt)
+                  0x00006e          0x4 LONG 0x7126 DEFINED (__PMPInterrupt)?ABSOLUTE (__PMPInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000070          0x4 LONG 0x7126 DEFINED (__Interrupt46)?ABSOLUTE (__Interrupt46):ABSOLUTE (__DefaultInterrupt)
+                  0x000072          0x4 LONG 0x7126 DEFINED (__Interrupt47)?ABSOLUTE (__Interrupt47):ABSOLUTE (__DefaultInterrupt)
+                  0x000074          0x4 LONG 0x7126 DEFINED (__Interrupt48)?ABSOLUTE (__Interrupt48):ABSOLUTE (__DefaultInterrupt)
+                  0x000076          0x4 LONG 0x7126 DEFINED (__SI2C2Interrupt)?ABSOLUTE (__SI2C2Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000078          0x4 LONG 0x7126 DEFINED (__MI2C2Interrupt)?ABSOLUTE (__MI2C2Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00007a          0x4 LONG 0x7126 DEFINED (__Interrupt51)?ABSOLUTE (__Interrupt51):ABSOLUTE (__DefaultInterrupt)
+                  0x00007c          0x4 LONG 0x7126 DEFINED (__Interrupt52)?ABSOLUTE (__Interrupt52):ABSOLUTE (__DefaultInterrupt)
+                  0x00007e          0x4 LONG 0x7126 DEFINED (__Interrupt53)?ABSOLUTE (__Interrupt53):ABSOLUTE (__DefaultInterrupt)
+                  0x000080          0x4 LONG 0x7126 DEFINED (__Interrupt54)?ABSOLUTE (__Interrupt54):ABSOLUTE (__DefaultInterrupt)
+                  0x000082          0x4 LONG 0x7126 DEFINED (__Interrupt55)?ABSOLUTE (__Interrupt55):ABSOLUTE (__DefaultInterrupt)
+                  0x000084          0x4 LONG 0x7126 DEFINED (__Interrupt56)?ABSOLUTE (__Interrupt56):ABSOLUTE (__DefaultInterrupt)
+                  0x000086          0x4 LONG 0x7126 DEFINED (__Interrupt57)?ABSOLUTE (__Interrupt57):ABSOLUTE (__DefaultInterrupt)
+                  0x000088          0x4 LONG 0x7126 DEFINED (__Interrupt58)?ABSOLUTE (__Interrupt58):ABSOLUTE (__DefaultInterrupt)
+                  0x00008a          0x4 LONG 0x7126 DEFINED (__Interrupt59)?ABSOLUTE (__Interrupt59):ABSOLUTE (__DefaultInterrupt)
+                  0x00008c          0x4 LONG 0x7126 DEFINED (__Interrupt60)?ABSOLUTE (__Interrupt60):ABSOLUTE (__DefaultInterrupt)
+                  0x00008e          0x4 LONG 0x7126 DEFINED (__Interrupt61)?ABSOLUTE (__Interrupt61):ABSOLUTE (__DefaultInterrupt)
+                  0x000090          0x4 LONG 0x7126 DEFINED (__RTCCInterrupt)?ABSOLUTE (__RTCCInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000092          0x4 LONG 0x7126 DEFINED (__Interrupt63)?ABSOLUTE (__Interrupt63):ABSOLUTE (__DefaultInterrupt)
+                  0x000094          0x4 LONG 0x7126 DEFINED (__Interrupt64)?ABSOLUTE (__Interrupt64):ABSOLUTE (__DefaultInterrupt)
+                  0x000096          0x4 LONG 0x7126 DEFINED (__U1ErrInterrupt)?ABSOLUTE (__U1ErrInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000098          0x4 LONG 0x7126 DEFINED (__U2ErrInterrupt)?ABSOLUTE (__U2ErrInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00009a          0x4 LONG 0x7126 DEFINED (__CRCInterrupt)?ABSOLUTE (__CRCInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00009c          0x4 LONG 0x7126 DEFINED (__Interrupt68)?ABSOLUTE (__Interrupt68):ABSOLUTE (__DefaultInterrupt)
+                  0x00009e          0x4 LONG 0x7126 DEFINED (__Interrupt69)?ABSOLUTE (__Interrupt69):ABSOLUTE (__DefaultInterrupt)
+                  0x0000a0          0x4 LONG 0x7126 DEFINED (__Interrupt70)?ABSOLUTE (__Interrupt70):ABSOLUTE (__DefaultInterrupt)
+                  0x0000a2          0x4 LONG 0x7126 DEFINED (__Interrupt71)?ABSOLUTE (__Interrupt71):ABSOLUTE (__DefaultInterrupt)
+                  0x0000a4          0x4 LONG 0x7126 DEFINED (__LVDInterrupt)?ABSOLUTE (__LVDInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x0000a6          0x4 LONG 0x7126 DEFINED (__Interrupt73)?ABSOLUTE (__Interrupt73):ABSOLUTE (__DefaultInterrupt)
+                  0x0000a8          0x4 LONG 0x7126 DEFINED (__Interrupt74)?ABSOLUTE (__Interrupt74):ABSOLUTE (__DefaultInterrupt)
+                  0x0000aa          0x4 LONG 0x7126 DEFINED (__Interrupt75)?ABSOLUTE (__Interrupt75):ABSOLUTE (__DefaultInterrupt)
+                  0x0000ac          0x4 LONG 0x7126 DEFINED (__Interrupt76)?ABSOLUTE (__Interrupt76):ABSOLUTE (__DefaultInterrupt)
+                  0x0000ae          0x4 LONG 0x7126 DEFINED (__Interrupt77)?ABSOLUTE (__Interrupt77):ABSOLUTE (__DefaultInterrupt)
+                  0x0000b0          0x4 LONG 0x7126 DEFINED (__Interrupt78)?ABSOLUTE (__Interrupt78):ABSOLUTE (__DefaultInterrupt)
+                  0x0000b2          0x4 LONG 0x7126 DEFINED (__Interrupt79)?ABSOLUTE (__Interrupt79):ABSOLUTE (__DefaultInterrupt)
+                  0x0000b4          0x4 LONG 0x7126 DEFINED (__Interrupt80)?ABSOLUTE (__Interrupt80):ABSOLUTE (__DefaultInterrupt)
+                  0x0000b6          0x4 LONG 0x7126 DEFINED (__Interrupt81)?ABSOLUTE (__Interrupt81):ABSOLUTE (__DefaultInterrupt)
+                  0x0000b8          0x4 LONG 0x7126 DEFINED (__Interrupt82)?ABSOLUTE (__Interrupt82):ABSOLUTE (__DefaultInterrupt)
+                  0x0000ba          0x4 LONG 0x7126 DEFINED (__Interrupt83)?ABSOLUTE (__Interrupt83):ABSOLUTE (__DefaultInterrupt)
+                  0x0000bc          0x4 LONG 0x7126 DEFINED (__Interrupt84)?ABSOLUTE (__Interrupt84):ABSOLUTE (__DefaultInterrupt)
+                  0x0000be          0x4 LONG 0x7126 DEFINED (__Interrupt85)?ABSOLUTE (__Interrupt85):ABSOLUTE (__DefaultInterrupt)
+                  0x0000c0          0x4 LONG 0x7126 DEFINED (__Interrupt86)?ABSOLUTE (__Interrupt86):ABSOLUTE (__DefaultInterrupt)
+                  0x0000c2          0x4 LONG 0x7126 DEFINED (__Interrupt87)?ABSOLUTE (__Interrupt87):ABSOLUTE (__DefaultInterrupt)
+                  0x0000c4          0x4 LONG 0x7126 DEFINED (__Interrupt88)?ABSOLUTE (__Interrupt88):ABSOLUTE (__DefaultInterrupt)
+                  0x0000c6          0x4 LONG 0x7126 DEFINED (__Interrupt89)?ABSOLUTE (__Interrupt89):ABSOLUTE (__DefaultInterrupt)
+                  0x0000c8          0x4 LONG 0x7126 DEFINED (__Interrupt90)?ABSOLUTE (__Interrupt90):ABSOLUTE (__DefaultInterrupt)
+                  0x0000ca          0x4 LONG 0x7126 DEFINED (__Interrupt91)?ABSOLUTE (__Interrupt91):ABSOLUTE (__DefaultInterrupt)
+                  0x0000cc          0x4 LONG 0x7126 DEFINED (__Interrupt92)?ABSOLUTE (__Interrupt92):ABSOLUTE (__DefaultInterrupt)
+                  0x0000ce          0x4 LONG 0x7126 DEFINED (__Interrupt93)?ABSOLUTE (__Interrupt93):ABSOLUTE (__DefaultInterrupt)
+                  0x0000d0          0x4 LONG 0x7126 DEFINED (__Interrupt94)?ABSOLUTE (__Interrupt94):ABSOLUTE (__DefaultInterrupt)
+                  0x0000d2          0x4 LONG 0x7126 DEFINED (__Interrupt95)?ABSOLUTE (__Interrupt95):ABSOLUTE (__DefaultInterrupt)
+                  0x0000d4          0x4 LONG 0x7126 DEFINED (__Interrupt96)?ABSOLUTE (__Interrupt96):ABSOLUTE (__DefaultInterrupt)
+                  0x0000d6          0x4 LONG 0x7126 DEFINED (__Interrupt97)?ABSOLUTE (__Interrupt97):ABSOLUTE (__DefaultInterrupt)
+                  0x0000d8          0x4 LONG 0x7126 DEFINED (__Interrupt98)?ABSOLUTE (__Interrupt98):ABSOLUTE (__DefaultInterrupt)
+                  0x0000da          0x4 LONG 0x7126 DEFINED (__Interrupt99)?ABSOLUTE (__Interrupt99):ABSOLUTE (__DefaultInterrupt)
+                  0x0000dc          0x4 LONG 0x7126 DEFINED (__Interrupt100)?ABSOLUTE (__Interrupt100):ABSOLUTE (__DefaultInterrupt)
+                  0x0000de          0x4 LONG 0x7126 DEFINED (__Interrupt101)?ABSOLUTE (__Interrupt101):ABSOLUTE (__DefaultInterrupt)
+                  0x0000e0          0x4 LONG 0x7126 DEFINED (__Interrupt102)?ABSOLUTE (__Interrupt102):ABSOLUTE (__DefaultInterrupt)
+                  0x0000e2          0x4 LONG 0x7126 DEFINED (__Interrupt103)?ABSOLUTE (__Interrupt103):ABSOLUTE (__DefaultInterrupt)
+                  0x0000e4          0x4 LONG 0x7126 DEFINED (__Interrupt104)?ABSOLUTE (__Interrupt104):ABSOLUTE (__DefaultInterrupt)
+                  0x0000e6          0x4 LONG 0x7126 DEFINED (__Interrupt105)?ABSOLUTE (__Interrupt105):ABSOLUTE (__DefaultInterrupt)
+                  0x0000e8          0x4 LONG 0x7126 DEFINED (__Interrupt106)?ABSOLUTE (__Interrupt106):ABSOLUTE (__DefaultInterrupt)
+                  0x0000ea          0x4 LONG 0x7126 DEFINED (__Interrupt107)?ABSOLUTE (__Interrupt107):ABSOLUTE (__DefaultInterrupt)
+                  0x0000ec          0x4 LONG 0x7126 DEFINED (__Interrupt108)?ABSOLUTE (__Interrupt108):ABSOLUTE (__DefaultInterrupt)
+                  0x0000ee          0x4 LONG 0x7126 DEFINED (__Interrupt109)?ABSOLUTE (__Interrupt109):ABSOLUTE (__DefaultInterrupt)
+                  0x0000f0          0x4 LONG 0x7126 DEFINED (__Interrupt110)?ABSOLUTE (__Interrupt110):ABSOLUTE (__DefaultInterrupt)
+                  0x0000f2          0x4 LONG 0x7126 DEFINED (__Interrupt111)?ABSOLUTE (__Interrupt111):ABSOLUTE (__DefaultInterrupt)
+                  0x0000f4          0x4 LONG 0x7126 DEFINED (__Interrupt112)?ABSOLUTE (__Interrupt112):ABSOLUTE (__DefaultInterrupt)
+                  0x0000f6          0x4 LONG 0x7126 DEFINED (__Interrupt113)?ABSOLUTE (__Interrupt113):ABSOLUTE (__DefaultInterrupt)
+                  0x0000f8          0x4 LONG 0x7126 DEFINED (__Interrupt114)?ABSOLUTE (__Interrupt114):ABSOLUTE (__DefaultInterrupt)
+                  0x0000fa          0x4 LONG 0x7126 DEFINED (__Interrupt115)?ABSOLUTE (__Interrupt115):ABSOLUTE (__DefaultInterrupt)
+                  0x0000fc          0x4 LONG 0x7126 DEFINED (__Interrupt116)?ABSOLUTE (__Interrupt116):ABSOLUTE (__DefaultInterrupt)
+                  0x0000fe          0x4 LONG 0x7126 DEFINED (__Interrupt117)?ABSOLUTE (__Interrupt117):ABSOLUTE (__DefaultInterrupt)
+
+.aivt             0x000104         0xfc
+                  0x000104          0x4 LONG 0x7126 DEFINED (__AltReservedTrap0)?ABSOLUTE (__AltReservedTrap0):DEFINED (__ReservedTrap0)?ABSOLUTE (__ReservedTrap0):ABSOLUTE (__DefaultInterrupt)
+                  0x000106          0x4 LONG 0x713a DEFINED (__AltOscillatorFail)?ABSOLUTE (__AltOscillatorFail):DEFINED (__OscillatorFail)?ABSOLUTE (__OscillatorFail):ABSOLUTE (__DefaultInterrupt)
+                  0x000108          0x4 LONG 0x714e DEFINED (__AltAddressError)?ABSOLUTE (__AltAddressError):DEFINED (__AddressError)?ABSOLUTE (__AddressError):ABSOLUTE (__DefaultInterrupt)
+                  0x00010a          0x4 LONG 0x7162 DEFINED (__AltStackError)?ABSOLUTE (__AltStackError):DEFINED (__StackError)?ABSOLUTE (__StackError):ABSOLUTE (__DefaultInterrupt)
+                  0x00010c          0x4 LONG 0x7176 DEFINED (__AltMathError)?ABSOLUTE (__AltMathError):DEFINED (__MathError)?ABSOLUTE (__MathError):ABSOLUTE (__DefaultInterrupt)
+                  0x00010e          0x4 LONG 0x7126 DEFINED (__AltReservedTrap5)?ABSOLUTE (__AltReservedTrap5):DEFINED (__ReservedTrap5)?ABSOLUTE (__ReservedTrap5):ABSOLUTE (__DefaultInterrupt)
+                  0x000110          0x4 LONG 0x7126 DEFINED (__AltReservedTrap6)?ABSOLUTE (__AltReservedTrap6):DEFINED (__ReservedTrap6)?ABSOLUTE (__ReservedTrap6):ABSOLUTE (__DefaultInterrupt)
+                  0x000112          0x4 LONG 0x7126 DEFINED (__AltReservedTrap7)?ABSOLUTE (__AltReservedTrap7):DEFINED (__ReservedTrap7)?ABSOLUTE (__ReservedTrap7):ABSOLUTE (__DefaultInterrupt)
+                  0x000114          0x4 LONG 0x7126 DEFINED (__AltINT0Interrupt)?ABSOLUTE (__AltINT0Interrupt):DEFINED (__INT0Interrupt)?ABSOLUTE (__INT0Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000116          0x4 LONG 0x7126 DEFINED (__AltIC1Interrupt)?ABSOLUTE (__AltIC1Interrupt):DEFINED (__IC1Interrupt)?ABSOLUTE (__IC1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000118          0x4 LONG 0x7126 DEFINED (__AltOC1Interrupt)?ABSOLUTE (__AltOC1Interrupt):DEFINED (__OC1Interrupt)?ABSOLUTE (__OC1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00011a          0x4 LONG 0xa43a DEFINED (__AltT1Interrupt)?ABSOLUTE (__AltT1Interrupt):DEFINED (__T1Interrupt)?ABSOLUTE (__T1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00011c          0x4 LONG 0x7126 DEFINED (__AltInterrupt4)?ABSOLUTE (__AltInterrupt4):DEFINED (__Interrupt4)?ABSOLUTE (__Interrupt4):ABSOLUTE (__DefaultInterrupt)
+                  0x00011e          0x4 LONG 0x7126 DEFINED (__AltIC2Interrupt)?ABSOLUTE (__AltIC2Interrupt):DEFINED (__IC2Interrupt)?ABSOLUTE (__IC2Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000120          0x4 LONG 0x7126 DEFINED (__AltOC2Interrupt)?ABSOLUTE (__AltOC2Interrupt):DEFINED (__OC2Interrupt)?ABSOLUTE (__OC2Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000122          0x4 LONG 0x7126 DEFINED (__AltT2Interrupt)?ABSOLUTE (__AltT2Interrupt):DEFINED (__T2Interrupt)?ABSOLUTE (__T2Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000124          0x4 LONG 0x7126 DEFINED (__AltT3Interrupt)?ABSOLUTE (__AltT3Interrupt):DEFINED (__T3Interrupt)?ABSOLUTE (__T3Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000126          0x4 LONG 0x7126 DEFINED (__AltSPI1ErrInterrupt)?ABSOLUTE (__AltSPI1ErrInterrupt):DEFINED (__SPI1ErrInterrupt)?ABSOLUTE (__SPI1ErrInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000128          0x4 LONG 0x7126 DEFINED (__AltSPI1Interrupt)?ABSOLUTE (__AltSPI1Interrupt):DEFINED (__SPI1Interrupt)?ABSOLUTE (__SPI1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00012a          0x4 LONG 0x7126 DEFINED (__AltU1RXInterrupt)?ABSOLUTE (__AltU1RXInterrupt):DEFINED (__U1RXInterrupt)?ABSOLUTE (__U1RXInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00012c          0x4 LONG 0x7126 DEFINED (__AltU1TXInterrupt)?ABSOLUTE (__AltU1TXInterrupt):DEFINED (__U1TXInterrupt)?ABSOLUTE (__U1TXInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00012e          0x4 LONG 0x7126 DEFINED (__AltADC1Interrupt)?ABSOLUTE (__AltADC1Interrupt):DEFINED (__ADC1Interrupt)?ABSOLUTE (__ADC1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000130          0x4 LONG 0x7126 DEFINED (__AltInterrupt14)?ABSOLUTE (__AltInterrupt14):DEFINED (__Interrupt14)?ABSOLUTE (__Interrupt14):ABSOLUTE (__DefaultInterrupt)
+                  0x000132          0x4 LONG 0x7126 DEFINED (__AltInterrupt15)?ABSOLUTE (__AltInterrupt15):DEFINED (__Interrupt15)?ABSOLUTE (__Interrupt15):ABSOLUTE (__DefaultInterrupt)
+                  0x000134          0x4 LONG 0x7126 DEFINED (__AltSI2C1Interrupt)?ABSOLUTE (__AltSI2C1Interrupt):DEFINED (__SI2C1Interrupt)?ABSOLUTE (__SI2C1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000136          0x4 LONG 0x7126 DEFINED (__AltMI2C1Interrupt)?ABSOLUTE (__AltMI2C1Interrupt):DEFINED (__MI2C1Interrupt)?ABSOLUTE (__MI2C1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000138          0x4 LONG 0x7126 DEFINED (__AltCompInterrupt)?ABSOLUTE (__AltCompInterrupt):DEFINED (__CompInterrupt)?ABSOLUTE (__CompInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00013a          0x4 LONG 0x7126 DEFINED (__AltCNInterrupt)?ABSOLUTE (__AltCNInterrupt):DEFINED (__CNInterrupt)?ABSOLUTE (__CNInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00013c          0x4 LONG 0xa8fc DEFINED (__AltINT1Interrupt)?ABSOLUTE (__AltINT1Interrupt):DEFINED (__INT1Interrupt)?ABSOLUTE (__INT1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00013e          0x4 LONG 0x7126 DEFINED (__AltInterrupt21)?ABSOLUTE (__AltInterrupt21):DEFINED (__Interrupt21)?ABSOLUTE (__Interrupt21):ABSOLUTE (__DefaultInterrupt)
+                  0x000140          0x4 LONG 0x7126 DEFINED (__AltInterrupt22)?ABSOLUTE (__AltInterrupt22):DEFINED (__Interrupt22)?ABSOLUTE (__Interrupt22):ABSOLUTE (__DefaultInterrupt)
+                  0x000142          0x4 LONG 0x7126 DEFINED (__AltInterrupt23)?ABSOLUTE (__AltInterrupt23):DEFINED (__Interrupt23)?ABSOLUTE (__Interrupt23):ABSOLUTE (__DefaultInterrupt)
+                  0x000144          0x4 LONG 0x7126 DEFINED (__AltInterrupt24)?ABSOLUTE (__AltInterrupt24):DEFINED (__Interrupt24)?ABSOLUTE (__Interrupt24):ABSOLUTE (__DefaultInterrupt)
+                  0x000146          0x4 LONG 0x7126 DEFINED (__AltOC3Interrupt)?ABSOLUTE (__AltOC3Interrupt):DEFINED (__OC3Interrupt)?ABSOLUTE (__OC3Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000148          0x4 LONG 0x7126 DEFINED (__AltOC4Interrupt)?ABSOLUTE (__AltOC4Interrupt):DEFINED (__OC4Interrupt)?ABSOLUTE (__OC4Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00014a          0x4 LONG 0x7126 DEFINED (__AltT4Interrupt)?ABSOLUTE (__AltT4Interrupt):DEFINED (__T4Interrupt)?ABSOLUTE (__T4Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00014c          0x4 LONG 0x7126 DEFINED (__AltT5Interrupt)?ABSOLUTE (__AltT5Interrupt):DEFINED (__T5Interrupt)?ABSOLUTE (__T5Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00014e          0x4 LONG 0x7126 DEFINED (__AltINT2Interrupt)?ABSOLUTE (__AltINT2Interrupt):DEFINED (__INT2Interrupt)?ABSOLUTE (__INT2Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000150          0x4 LONG 0x7126 DEFINED (__AltU2RXInterrupt)?ABSOLUTE (__AltU2RXInterrupt):DEFINED (__U2RXInterrupt)?ABSOLUTE (__U2RXInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000152          0x4 LONG 0x7126 DEFINED (__AltU2TXInterrupt)?ABSOLUTE (__AltU2TXInterrupt):DEFINED (__U2TXInterrupt)?ABSOLUTE (__U2TXInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000154          0x4 LONG 0x7126 DEFINED (__AltSPI2ErrInterrupt)?ABSOLUTE (__AltSPI2ErrInterrupt):DEFINED (__SPI2ErrInterrupt)?ABSOLUTE (__SPI2ErrInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000156          0x4 LONG 0x7126 DEFINED (__AltSPI2Interrupt)?ABSOLUTE (__AltSPI2Interrupt):DEFINED (__SPI2Interrupt)?ABSOLUTE (__SPI2Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000158          0x4 LONG 0x7126 DEFINED (__AltInterrupt34)?ABSOLUTE (__AltInterrupt34):DEFINED (__Interrupt34)?ABSOLUTE (__Interrupt34):ABSOLUTE (__DefaultInterrupt)
+                  0x00015a          0x4 LONG 0x7126 DEFINED (__AltInterrupt35)?ABSOLUTE (__AltInterrupt35):DEFINED (__Interrupt35)?ABSOLUTE (__Interrupt35):ABSOLUTE (__DefaultInterrupt)
+                  0x00015c          0x4 LONG 0x7126 DEFINED (__AltInterrupt36)?ABSOLUTE (__AltInterrupt36):DEFINED (__Interrupt36)?ABSOLUTE (__Interrupt36):ABSOLUTE (__DefaultInterrupt)
+                  0x00015e          0x4 LONG 0x7126 DEFINED (__AltIC3Interrupt)?ABSOLUTE (__AltIC3Interrupt):DEFINED (__IC3Interrupt)?ABSOLUTE (__IC3Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000160          0x4 LONG 0x7126 DEFINED (__AltIC4Interrupt)?ABSOLUTE (__AltIC4Interrupt):DEFINED (__IC4Interrupt)?ABSOLUTE (__IC4Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000162          0x4 LONG 0x7126 DEFINED (__AltIC5Interrupt)?ABSOLUTE (__AltIC5Interrupt):DEFINED (__IC5Interrupt)?ABSOLUTE (__IC5Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000164          0x4 LONG 0x7126 DEFINED (__AltInterrupt40)?ABSOLUTE (__AltInterrupt40):DEFINED (__Interrupt40)?ABSOLUTE (__Interrupt40):ABSOLUTE (__DefaultInterrupt)
+                  0x000166          0x4 LONG 0x7126 DEFINED (__AltOC5Interrupt)?ABSOLUTE (__AltOC5Interrupt):DEFINED (__OC5Interrupt)?ABSOLUTE (__OC5Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000168          0x4 LONG 0x7126 DEFINED (__AltInterrupt42)?ABSOLUTE (__AltInterrupt42):DEFINED (__Interrupt42)?ABSOLUTE (__Interrupt42):ABSOLUTE (__DefaultInterrupt)
+                  0x00016a          0x4 LONG 0x7126 DEFINED (__AltInterrupt43)?ABSOLUTE (__AltInterrupt43):DEFINED (__Interrupt43)?ABSOLUTE (__Interrupt43):ABSOLUTE (__DefaultInterrupt)
+                  0x00016c          0x4 LONG 0x7126 DEFINED (__AltInterrupt44)?ABSOLUTE (__AltInterrupt44):DEFINED (__Interrupt44)?ABSOLUTE (__Interrupt44):ABSOLUTE (__DefaultInterrupt)
+                  0x00016e          0x4 LONG 0x7126 DEFINED (__AltPMPInterrupt)?ABSOLUTE (__AltPMPInterrupt):DEFINED (__PMPInterrupt)?ABSOLUTE (__PMPInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000170          0x4 LONG 0x7126 DEFINED (__AltInterrupt46)?ABSOLUTE (__AltInterrupt46):DEFINED (__Interrupt46)?ABSOLUTE (__Interrupt46):ABSOLUTE (__DefaultInterrupt)
+                  0x000172          0x4 LONG 0x7126 DEFINED (__AltInterrupt47)?ABSOLUTE (__AltInterrupt47):DEFINED (__Interrupt47)?ABSOLUTE (__Interrupt47):ABSOLUTE (__DefaultInterrupt)
+                  0x000174          0x4 LONG 0x7126 DEFINED (__AltInterrupt48)?ABSOLUTE (__AltInterrupt48):DEFINED (__Interrupt48)?ABSOLUTE (__Interrupt48):ABSOLUTE (__DefaultInterrupt)
+                  0x000176          0x4 LONG 0x7126 DEFINED (__AltSI2C2Interrupt)?ABSOLUTE (__AltSI2C2Interrupt):DEFINED (__SI2C2Interrupt)?ABSOLUTE (__SI2C2Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000178          0x4 LONG 0x7126 DEFINED (__AltMI2C2Interrupt)?ABSOLUTE (__AltMI2C2Interrupt):DEFINED (__MI2C2Interrupt)?ABSOLUTE (__MI2C2Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00017a          0x4 LONG 0x7126 DEFINED (__AltInterrupt51)?ABSOLUTE (__AltInterrupt51):DEFINED (__Interrupt51)?ABSOLUTE (__Interrupt51):ABSOLUTE (__DefaultInterrupt)
+                  0x00017c          0x4 LONG 0x7126 DEFINED (__AltInterrupt52)?ABSOLUTE (__AltInterrupt52):DEFINED (__Interrupt52)?ABSOLUTE (__Interrupt52):ABSOLUTE (__DefaultInterrupt)
+                  0x00017e          0x4 LONG 0x7126 DEFINED (__AltInterrupt53)?ABSOLUTE (__AltInterrupt53):DEFINED (__Interrupt53)?ABSOLUTE (__Interrupt53):ABSOLUTE (__DefaultInterrupt)
+                  0x000180          0x4 LONG 0x7126 DEFINED (__AltInterrupt54)?ABSOLUTE (__AltInterrupt54):DEFINED (__Interrupt54)?ABSOLUTE (__Interrupt54):ABSOLUTE (__DefaultInterrupt)
+                  0x000182          0x4 LONG 0x7126 DEFINED (__AltInterrupt55)?ABSOLUTE (__AltInterrupt55):DEFINED (__Interrupt55)?ABSOLUTE (__Interrupt55):ABSOLUTE (__DefaultInterrupt)
+                  0x000184          0x4 LONG 0x7126 DEFINED (__AltInterrupt56)?ABSOLUTE (__AltInterrupt56):DEFINED (__Interrupt56)?ABSOLUTE (__Interrupt56):ABSOLUTE (__DefaultInterrupt)
+                  0x000186          0x4 LONG 0x7126 DEFINED (__AltInterrupt57)?ABSOLUTE (__AltInterrupt57):DEFINED (__Interrupt57)?ABSOLUTE (__Interrupt57):ABSOLUTE (__DefaultInterrupt)
+                  0x000188          0x4 LONG 0x7126 DEFINED (__AltInterrupt58)?ABSOLUTE (__AltInterrupt58):DEFINED (__Interrupt58)?ABSOLUTE (__Interrupt58):ABSOLUTE (__DefaultInterrupt)
+                  0x00018a          0x4 LONG 0x7126 DEFINED (__AltInterrupt59)?ABSOLUTE (__AltInterrupt59):DEFINED (__Interrupt59)?ABSOLUTE (__Interrupt59):ABSOLUTE (__DefaultInterrupt)
+                  0x00018c          0x4 LONG 0x7126 DEFINED (__AltInterrupt60)?ABSOLUTE (__AltInterrupt60):DEFINED (__Interrupt60)?ABSOLUTE (__Interrupt60):ABSOLUTE (__DefaultInterrupt)
+                  0x00018e          0x4 LONG 0x7126 DEFINED (__AltInterrupt61)?ABSOLUTE (__AltInterrupt61):DEFINED (__Interrupt61)?ABSOLUTE (__Interrupt61):ABSOLUTE (__DefaultInterrupt)
+                  0x000190          0x4 LONG 0x7126 DEFINED (__AltRTCCInterrupt)?ABSOLUTE (__AltRTCCInterrupt):DEFINED (__RTCCInterrupt)?ABSOLUTE (__RTCCInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000192          0x4 LONG 0x7126 DEFINED (__AltInterrupt63)?ABSOLUTE (__AltInterrupt63):DEFINED (__Interrupt63)?ABSOLUTE (__Interrupt63):ABSOLUTE (__DefaultInterrupt)
+                  0x000194          0x4 LONG 0x7126 DEFINED (__AltInterrupt64)?ABSOLUTE (__AltInterrupt64):DEFINED (__Interrupt64)?ABSOLUTE (__Interrupt64):ABSOLUTE (__DefaultInterrupt)
+                  0x000196          0x4 LONG 0x7126 DEFINED (__AltU1ErrInterrupt)?ABSOLUTE (__AltU1ErrInterrupt):DEFINED (__U1ErrInterrupt)?ABSOLUTE (__U1ErrInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000198          0x4 LONG 0x7126 DEFINED (__AltU2ErrInterrupt)?ABSOLUTE (__AltU2ErrInterrupt):DEFINED (__U2ErrInterrupt)?ABSOLUTE (__U2ErrInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00019a          0x4 LONG 0x7126 DEFINED (__AltCRCInterrupt)?ABSOLUTE (__AltCRCInterrupt):DEFINED (__CRCInterrupt)?ABSOLUTE (__CRCInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00019c          0x4 LONG 0x7126 DEFINED (__AltInterrupt68)?ABSOLUTE (__AltInterrupt68):DEFINED (__Interrupt68)?ABSOLUTE (__Interrupt68):ABSOLUTE (__DefaultInterrupt)
+                  0x00019e          0x4 LONG 0x7126 DEFINED (__AltInterrupt69)?ABSOLUTE (__AltInterrupt69):DEFINED (__Interrupt69)?ABSOLUTE (__Interrupt69):ABSOLUTE (__DefaultInterrupt)
+                  0x0001a0          0x4 LONG 0x7126 DEFINED (__AltInterrupt70)?ABSOLUTE (__AltInterrupt70):DEFINED (__Interrupt70)?ABSOLUTE (__Interrupt70):ABSOLUTE (__DefaultInterrupt)
+                  0x0001a2          0x4 LONG 0x7126 DEFINED (__AltInterrupt71)?ABSOLUTE (__AltInterrupt71):DEFINED (__Interrupt71)?ABSOLUTE (__Interrupt71):ABSOLUTE (__DefaultInterrupt)
+                  0x0001a4          0x4 LONG 0x7126 DEFINED (__AltLVDInterrupt)?ABSOLUTE (__AltLVDInterrupt):DEFINED (__LVDInterrupt)?ABSOLUTE (__LVDInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x0001a6          0x4 LONG 0x7126 DEFINED (__AltInterrupt73)?ABSOLUTE (__AltInterrupt73):DEFINED (__Interrupt73)?ABSOLUTE (__Interrupt73):ABSOLUTE (__DefaultInterrupt)
+                  0x0001a8          0x4 LONG 0x7126 DEFINED (__AltInterrupt74)?ABSOLUTE (__AltInterrupt74):DEFINED (__Interrupt74)?ABSOLUTE (__Interrupt74):ABSOLUTE (__DefaultInterrupt)
+                  0x0001aa          0x4 LONG 0x7126 DEFINED (__AltInterrupt75)?ABSOLUTE (__AltInterrupt75):DEFINED (__Interrupt75)?ABSOLUTE (__Interrupt75):ABSOLUTE (__DefaultInterrupt)
+                  0x0001ac          0x4 LONG 0x7126 DEFINED (__AltInterrupt76)?ABSOLUTE (__AltInterrupt76):DEFINED (__Interrupt76)?ABSOLUTE (__Interrupt76):ABSOLUTE (__DefaultInterrupt)
+                  0x0001ae          0x4 LONG 0x7126 DEFINED (__AltInterrupt77)?ABSOLUTE (__AltInterrupt77):DEFINED (__Interrupt77)?ABSOLUTE (__Interrupt77):ABSOLUTE (__DefaultInterrupt)
+                  0x0001b0          0x4 LONG 0x7126 DEFINED (__AltInterrupt78)?ABSOLUTE (__AltInterrupt78):DEFINED (__Interrupt78)?ABSOLUTE (__Interrupt78):ABSOLUTE (__DefaultInterrupt)
+                  0x0001b2          0x4 LONG 0x7126 DEFINED (__AltInterrupt79)?ABSOLUTE (__AltInterrupt79):DEFINED (__Interrupt79)?ABSOLUTE (__Interrupt79):ABSOLUTE (__DefaultInterrupt)
+                  0x0001b4          0x4 LONG 0x7126 DEFINED (__AltInterrupt80)?ABSOLUTE (__AltInterrupt80):DEFINED (__Interrupt80)?ABSOLUTE (__Interrupt80):ABSOLUTE (__DefaultInterrupt)
+                  0x0001b6          0x4 LONG 0x7126 DEFINED (__AltInterrupt81)?ABSOLUTE (__AltInterrupt81):DEFINED (__Interrupt81)?ABSOLUTE (__Interrupt81):ABSOLUTE (__DefaultInterrupt)
+                  0x0001b8          0x4 LONG 0x7126 DEFINED (__AltInterrupt82)?ABSOLUTE (__AltInterrupt82):DEFINED (__Interrupt82)?ABSOLUTE (__Interrupt82):ABSOLUTE (__DefaultInterrupt)
+                  0x0001ba          0x4 LONG 0x7126 DEFINED (__AltInterrupt83)?ABSOLUTE (__AltInterrupt83):DEFINED (__Interrupt83)?ABSOLUTE (__Interrupt83):ABSOLUTE (__DefaultInterrupt)
+                  0x0001bc          0x4 LONG 0x7126 DEFINED (__AltInterrupt84)?ABSOLUTE (__AltInterrupt84):DEFINED (__Interrupt84)?ABSOLUTE (__Interrupt84):ABSOLUTE (__DefaultInterrupt)
+                  0x0001be          0x4 LONG 0x7126 DEFINED (__AltInterrupt85)?ABSOLUTE (__AltInterrupt85):DEFINED (__Interrupt85)?ABSOLUTE (__Interrupt85):ABSOLUTE (__DefaultInterrupt)
+                  0x0001c0          0x4 LONG 0x7126 DEFINED (__AltInterrupt86)?ABSOLUTE (__AltInterrupt86):DEFINED (__Interrupt86)?ABSOLUTE (__Interrupt86):ABSOLUTE (__DefaultInterrupt)
+                  0x0001c2          0x4 LONG 0x7126 DEFINED (__AltInterrupt87)?ABSOLUTE (__AltInterrupt87):DEFINED (__Interrupt87)?ABSOLUTE (__Interrupt87):ABSOLUTE (__DefaultInterrupt)
+                  0x0001c4          0x4 LONG 0x7126 DEFINED (__AltInterrupt88)?ABSOLUTE (__AltInterrupt88):DEFINED (__Interrupt88)?ABSOLUTE (__Interrupt88):ABSOLUTE (__DefaultInterrupt)
+                  0x0001c6          0x4 LONG 0x7126 DEFINED (__AltInterrupt89)?ABSOLUTE (__AltInterrupt89):DEFINED (__Interrupt89)?ABSOLUTE (__Interrupt89):ABSOLUTE (__DefaultInterrupt)
+                  0x0001c8          0x4 LONG 0x7126 DEFINED (__AltInterrupt90)?ABSOLUTE (__AltInterrupt90):DEFINED (__Interrupt90)?ABSOLUTE (__Interrupt90):ABSOLUTE (__DefaultInterrupt)
+                  0x0001ca          0x4 LONG 0x7126 DEFINED (__AltInterrupt91)?ABSOLUTE (__AltInterrupt91):DEFINED (__Interrupt91)?ABSOLUTE (__Interrupt91):ABSOLUTE (__DefaultInterrupt)
+                  0x0001cc          0x4 LONG 0x7126 DEFINED (__AltInterrupt92)?ABSOLUTE (__AltInterrupt92):DEFINED (__Interrupt92)?ABSOLUTE (__Interrupt92):ABSOLUTE (__DefaultInterrupt)
+                  0x0001ce          0x4 LONG 0x7126 DEFINED (__AltInterrupt93)?ABSOLUTE (__AltInterrupt93):DEFINED (__Interrupt93)?ABSOLUTE (__Interrupt93):ABSOLUTE (__DefaultInterrupt)
+                  0x0001d0          0x4 LONG 0x7126 DEFINED (__AltInterrupt94)?ABSOLUTE (__AltInterrupt94):DEFINED (__Interrupt94)?ABSOLUTE (__Interrupt94):ABSOLUTE (__DefaultInterrupt)
+                  0x0001d2          0x4 LONG 0x7126 DEFINED (__AltInterrupt95)?ABSOLUTE (__AltInterrupt95):DEFINED (__Interrupt95)?ABSOLUTE (__Interrupt95):ABSOLUTE (__DefaultInterrupt)
+                  0x0001d4          0x4 LONG 0x7126 DEFINED (__AltInterrupt96)?ABSOLUTE (__AltInterrupt96):DEFINED (__Interrupt96)?ABSOLUTE (__Interrupt96):ABSOLUTE (__DefaultInterrupt)
+                  0x0001d6          0x4 LONG 0x7126 DEFINED (__AltInterrupt97)?ABSOLUTE (__AltInterrupt97):DEFINED (__Interrupt97)?ABSOLUTE (__Interrupt97):ABSOLUTE (__DefaultInterrupt)
+                  0x0001d8          0x4 LONG 0x7126 DEFINED (__AltInterrupt98)?ABSOLUTE (__AltInterrupt98):DEFINED (__Interrupt98)?ABSOLUTE (__Interrupt98):ABSOLUTE (__DefaultInterrupt)
+                  0x0001da          0x4 LONG 0x7126 DEFINED (__AltInterrupt99)?ABSOLUTE (__AltInterrupt99):DEFINED (__Interrupt99)?ABSOLUTE (__Interrupt99):ABSOLUTE (__DefaultInterrupt)
+                  0x0001dc          0x4 LONG 0x7126 DEFINED (__AltInterrupt100)?ABSOLUTE (__AltInterrupt100):DEFINED (__Interrupt100)?ABSOLUTE (__Interrupt100):ABSOLUTE (__DefaultInterrupt)
+                  0x0001de          0x4 LONG 0x7126 DEFINED (__AltInterrupt101)?ABSOLUTE (__AltInterrupt101):DEFINED (__Interrupt101)?ABSOLUTE (__Interrupt101):ABSOLUTE (__DefaultInterrupt)
+                  0x0001e0          0x4 LONG 0x7126 DEFINED (__AltInterrupt102)?ABSOLUTE (__AltInterrupt102):DEFINED (__Interrupt102)?ABSOLUTE (__Interrupt102):ABSOLUTE (__DefaultInterrupt)
+                  0x0001e2          0x4 LONG 0x7126 DEFINED (__AltInterrupt103)?ABSOLUTE (__AltInterrupt103):DEFINED (__Interrupt103)?ABSOLUTE (__Interrupt103):ABSOLUTE (__DefaultInterrupt)
+                  0x0001e4          0x4 LONG 0x7126 DEFINED (__AltInterrupt104)?ABSOLUTE (__AltInterrupt104):DEFINED (__Interrupt104)?ABSOLUTE (__Interrupt104):ABSOLUTE (__DefaultInterrupt)
+                  0x0001e6          0x4 LONG 0x7126 DEFINED (__AltInterrupt105)?ABSOLUTE (__AltInterrupt105):DEFINED (__Interrupt105)?ABSOLUTE (__Interrupt105):ABSOLUTE (__DefaultInterrupt)
+                  0x0001e8          0x4 LONG 0x7126 DEFINED (__AltInterrupt106)?ABSOLUTE (__AltInterrupt106):DEFINED (__Interrupt106)?ABSOLUTE (__Interrupt106):ABSOLUTE (__DefaultInterrupt)
+                  0x0001ea          0x4 LONG 0x7126 DEFINED (__AltInterrupt107)?ABSOLUTE (__AltInterrupt107):DEFINED (__Interrupt107)?ABSOLUTE (__Interrupt107):ABSOLUTE (__DefaultInterrupt)
+                  0x0001ec          0x4 LONG 0x7126 DEFINED (__AltInterrupt108)?ABSOLUTE (__AltInterrupt108):DEFINED (__Interrupt108)?ABSOLUTE (__Interrupt108):ABSOLUTE (__DefaultInterrupt)
+                  0x0001ee          0x4 LONG 0x7126 DEFINED (__AltInterrupt109)?ABSOLUTE (__AltInterrupt109):DEFINED (__Interrupt109)?ABSOLUTE (__Interrupt109):ABSOLUTE (__DefaultInterrupt)
+                  0x0001f0          0x4 LONG 0x7126 DEFINED (__AltInterrupt110)?ABSOLUTE (__AltInterrupt110):DEFINED (__Interrupt110)?ABSOLUTE (__Interrupt110):ABSOLUTE (__DefaultInterrupt)
+                  0x0001f2          0x4 LONG 0x7126 DEFINED (__AltInterrupt111)?ABSOLUTE (__AltInterrupt111):DEFINED (__Interrupt111)?ABSOLUTE (__Interrupt111):ABSOLUTE (__DefaultInterrupt)
+                  0x0001f4          0x4 LONG 0x7126 DEFINED (__AltInterrupt112)?ABSOLUTE (__AltInterrupt112):DEFINED (__Interrupt112)?ABSOLUTE (__Interrupt112):ABSOLUTE (__DefaultInterrupt)
+                  0x0001f6          0x4 LONG 0x7126 DEFINED (__AltInterrupt113)?ABSOLUTE (__AltInterrupt113):DEFINED (__Interrupt113)?ABSOLUTE (__Interrupt113):ABSOLUTE (__DefaultInterrupt)
+                  0x0001f8          0x4 LONG 0x7126 DEFINED (__AltInterrupt114)?ABSOLUTE (__AltInterrupt114):DEFINED (__Interrupt114)?ABSOLUTE (__Interrupt114):ABSOLUTE (__DefaultInterrupt)
+                  0x0001fa          0x4 LONG 0x7126 DEFINED (__AltInterrupt115)?ABSOLUTE (__AltInterrupt115):DEFINED (__Interrupt115)?ABSOLUTE (__Interrupt115):ABSOLUTE (__DefaultInterrupt)
+                  0x0001fc          0x4 LONG 0x7126 DEFINED (__AltInterrupt116)?ABSOLUTE (__AltInterrupt116):DEFINED (__Interrupt116)?ABSOLUTE (__Interrupt116):ABSOLUTE (__DefaultInterrupt)
+                  0x0001fe          0x4 LONG 0x7126 DEFINED (__AltInterrupt117)?ABSOLUTE (__AltInterrupt117):DEFINED (__Interrupt117)?ABSOLUTE (__Interrupt117):ABSOLUTE (__DefaultInterrupt)
+                    0x0000                  WREG0 = 0x0
+                    0x0000                  _WREG0 = 0x0
+                    0x0002                  WREG1 = 0x2
+                    0x0002                  _WREG1 = 0x2
+                    0x0004                  WREG2 = 0x4
+                    0x0004                  _WREG2 = 0x4
+                    0x0006                  WREG3 = 0x6
+                    0x0006                  _WREG3 = 0x6
+                    0x0008                  WREG4 = 0x8
+                    0x0008                  _WREG4 = 0x8
+                    0x000a                  WREG5 = 0xa
+                    0x000a                  _WREG5 = 0xa
+                    0x000c                  WREG6 = 0xc
+                    0x000c                  _WREG6 = 0xc
+                    0x000e                  WREG7 = 0xe
+                    0x000e                  _WREG7 = 0xe
+                    0x0010                  WREG8 = 0x10
+                    0x0010                  _WREG8 = 0x10
+                    0x0012                  WREG9 = 0x12
+                    0x0012                  _WREG9 = 0x12
+                    0x0014                  WREG10 = 0x14
+                    0x0014                  _WREG10 = 0x14
+                    0x0016                  WREG11 = 0x16
+                    0x0016                  _WREG11 = 0x16
+                    0x0018                  WREG12 = 0x18
+                    0x0018                  _WREG12 = 0x18
+                    0x001a                  WREG13 = 0x1a
+                    0x001a                  _WREG13 = 0x1a
+                    0x001c                  WREG14 = 0x1c
+                    0x001c                  _WREG14 = 0x1c
+                    0x001e                  WREG15 = 0x1e
+                    0x001e                  _WREG15 = 0x1e
+                    0x0020                  SPLIM = 0x20
+                    0x0020                  _SPLIM = 0x20
+                    0x002e                  PCL = 0x2e
+                    0x002e                  _PCL = 0x2e
+                    0x0030                  PCH = 0x30
+                    0x0030                  _PCH = 0x30
+                    0x0032                  TBLPAG = 0x32
+                    0x0032                  _TBLPAG = 0x32
+                    0x0034                  PSVPAG = 0x34
+                    0x0034                  _PSVPAG = 0x34
+                    0x0036                  RCOUNT = 0x36
+                    0x0036                  _RCOUNT = 0x36
+                    0x0042                  SR = 0x42
+                    0x0042                  _SR = 0x42
+                    0x0042                  _SRbits = 0x42
+                    0x0044                  CORCON = 0x44
+                    0x0044                  _CORCON = 0x44
+                    0x0044                  _CORCONbits = 0x44
+                    0x0052                  DISICNT = 0x52
+                    0x0052                  _DISICNT = 0x52
+                    0x0060                  CNEN1 = 0x60
+                    0x0060                  _CNEN1 = 0x60
+                    0x0060                  _CNEN1bits = 0x60
+                    0x0062                  CNEN2 = 0x62
+                    0x0062                  _CNEN2 = 0x62
+                    0x0062                  _CNEN2bits = 0x62
+                    0x0068                  CNPU1 = 0x68
+                    0x0068                  _CNPU1 = 0x68
+                    0x0068                  _CNPU1bits = 0x68
+                    0x006a                  CNPU2 = 0x6a
+                    0x006a                  _CNPU2 = 0x6a
+                    0x006a                  _CNPU2bits = 0x6a
+                    0x0080                  INTCON1 = 0x80
+                    0x0080                  _INTCON1 = 0x80
+                    0x0080                  _INTCON1bits = 0x80
+                    0x0082                  INTCON2 = 0x82
+                    0x0082                  _INTCON2 = 0x82
+                    0x0082                  _INTCON2bits = 0x82
+                    0x0084                  IFS0 = 0x84
+                    0x0084                  _IFS0 = 0x84
+                    0x0084                  _IFS0bits = 0x84
+                    0x0086                  IFS1 = 0x86
+                    0x0086                  _IFS1 = 0x86
+                    0x0086                  _IFS1bits = 0x86
+                    0x0088                  IFS2 = 0x88
+                    0x0088                  _IFS2 = 0x88
+                    0x0088                  _IFS2bits = 0x88
+                    0x008a                  IFS3 = 0x8a
+                    0x008a                  _IFS3 = 0x8a
+                    0x008a                  _IFS3bits = 0x8a
+                    0x008c                  IFS4 = 0x8c
+                    0x008c                  _IFS4 = 0x8c
+                    0x008c                  _IFS4bits = 0x8c
+                    0x0094                  IEC0 = 0x94
+                    0x0094                  _IEC0 = 0x94
+                    0x0094                  _IEC0bits = 0x94
+                    0x0096                  IEC1 = 0x96
+                    0x0096                  _IEC1 = 0x96
+                    0x0096                  _IEC1bits = 0x96
+                    0x0098                  IEC2 = 0x98
+                    0x0098                  _IEC2 = 0x98
+                    0x0098                  _IEC2bits = 0x98
+                    0x009a                  IEC3 = 0x9a
+                    0x009a                  _IEC3 = 0x9a
+                    0x009a                  _IEC3bits = 0x9a
+                    0x009c                  IEC4 = 0x9c
+                    0x009c                  _IEC4 = 0x9c
+                    0x009c                  _IEC4bits = 0x9c
+                    0x00a4                  IPC0 = 0xa4
+                    0x00a4                  _IPC0 = 0xa4
+                    0x00a4                  _IPC0bits = 0xa4
+                    0x00a6                  IPC1 = 0xa6
+                    0x00a6                  _IPC1 = 0xa6
+                    0x00a6                  _IPC1bits = 0xa6
+                    0x00a8                  IPC2 = 0xa8
+                    0x00a8                  _IPC2 = 0xa8
+                    0x00a8                  _IPC2bits = 0xa8
+                    0x00aa                  IPC3 = 0xaa
+                    0x00aa                  _IPC3 = 0xaa
+                    0x00aa                  _IPC3bits = 0xaa
+                    0x00ac                  IPC4 = 0xac
+                    0x00ac                  _IPC4 = 0xac
+                    0x00ac                  _IPC4bits = 0xac
+                    0x00ae                  IPC5 = 0xae
+                    0x00ae                  _IPC5 = 0xae
+                    0x00ae                  _IPC5bits = 0xae
+                    0x00b0                  IPC6 = 0xb0
+                    0x00b0                  _IPC6 = 0xb0
+                    0x00b0                  _IPC6bits = 0xb0
+                    0x00b2                  IPC7 = 0xb2
+                    0x00b2                  _IPC7 = 0xb2
+                    0x00b2                  _IPC7bits = 0xb2
+                    0x00b4                  IPC8 = 0xb4
+                    0x00b4                  _IPC8 = 0xb4
+                    0x00b4                  _IPC8bits = 0xb4
+                    0x00b6                  IPC9 = 0xb6
+                    0x00b6                  _IPC9 = 0xb6
+                    0x00b6                  _IPC9bits = 0xb6
+                    0x00b8                  IPC10 = 0xb8
+                    0x00b8                  _IPC10 = 0xb8
+                    0x00b8                  _IPC10bits = 0xb8
+                    0x00ba                  IPC11 = 0xba
+                    0x00ba                  _IPC11 = 0xba
+                    0x00ba                  _IPC11bits = 0xba
+                    0x00bc                  IPC12 = 0xbc
+                    0x00bc                  _IPC12 = 0xbc
+                    0x00bc                  _IPC12bits = 0xbc
+                    0x00c2                  IPC15 = 0xc2
+                    0x00c2                  _IPC15 = 0xc2
+                    0x00c2                  _IPC15bits = 0xc2
+                    0x00c4                  IPC16 = 0xc4
+                    0x00c4                  _IPC16 = 0xc4
+                    0x00c4                  _IPC16bits = 0xc4
+                    0x00c8                  IPC18 = 0xc8
+                    0x00c8                  _IPC18 = 0xc8
+                    0x00c8                  _IPC18bits = 0xc8
+                    0x0100                  TMR1 = 0x100
+                    0x0100                  _TMR1 = 0x100
+                    0x0102                  PR1 = 0x102
+                    0x0102                  _PR1 = 0x102
+                    0x0104                  T1CON = 0x104
+                    0x0104                  _T1CON = 0x104
+                    0x0104                  _T1CONbits = 0x104
+                    0x0106                  TMR2 = 0x106
+                    0x0106                  _TMR2 = 0x106
+                    0x0108                  TMR3HLD = 0x108
+                    0x0108                  _TMR3HLD = 0x108
+                    0x010a                  TMR3 = 0x10a
+                    0x010a                  _TMR3 = 0x10a
+                    0x010c                  PR2 = 0x10c
+                    0x010c                  _PR2 = 0x10c
+                    0x010e                  PR3 = 0x10e
+                    0x010e                  _PR3 = 0x10e
+                    0x0110                  T2CON = 0x110
+                    0x0110                  _T2CON = 0x110
+                    0x0110                  _T2CONbits = 0x110
+                    0x0112                  T3CON = 0x112
+                    0x0112                  _T3CON = 0x112
+                    0x0112                  _T3CONbits = 0x112
+                    0x0114                  TMR4 = 0x114
+                    0x0114                  _TMR4 = 0x114
+                    0x0116                  TMR5HLD = 0x116
+                    0x0116                  _TMR5HLD = 0x116
+                    0x0118                  TMR5 = 0x118
+                    0x0118                  _TMR5 = 0x118
+                    0x011a                  PR4 = 0x11a
+                    0x011a                  _PR4 = 0x11a
+                    0x011c                  PR5 = 0x11c
+                    0x011c                  _PR5 = 0x11c
+                    0x011e                  T4CON = 0x11e
+                    0x011e                  _T4CON = 0x11e
+                    0x011e                  _T4CONbits = 0x11e
+                    0x0120                  T5CON = 0x120
+                    0x0120                  _T5CON = 0x120
+                    0x0120                  _T5CONbits = 0x120
+                    0x0140                  IC1BUF = 0x140
+                    0x0140                  _IC1BUF = 0x140
+                    0x0142                  IC1CON = 0x142
+                    0x0142                  _IC1CON = 0x142
+                    0x0142                  _IC1CONbits = 0x142
+                    0x0144                  IC2BUF = 0x144
+                    0x0144                  _IC2BUF = 0x144
+                    0x0146                  IC2CON = 0x146
+                    0x0146                  _IC2CON = 0x146
+                    0x0146                  _IC2CONbits = 0x146
+                    0x0148                  IC3BUF = 0x148
+                    0x0148                  _IC3BUF = 0x148
+                    0x014a                  IC3CON = 0x14a
+                    0x014a                  _IC3CON = 0x14a
+                    0x014a                  _IC3CONbits = 0x14a
+                    0x014c                  IC4BUF = 0x14c
+                    0x014c                  _IC4BUF = 0x14c
+                    0x014e                  IC4CON = 0x14e
+                    0x014e                  _IC4CON = 0x14e
+                    0x014e                  _IC4CONbits = 0x14e
+                    0x0150                  IC5BUF = 0x150
+                    0x0150                  _IC5BUF = 0x150
+                    0x0152                  IC5CON = 0x152
+                    0x0152                  _IC5CON = 0x152
+                    0x0152                  _IC5CONbits = 0x152
+                    0x0180                  OC1RS = 0x180
+                    0x0180                  _OC1RS = 0x180
+                    0x0182                  OC1R = 0x182
+                    0x0182                  _OC1R = 0x182
+                    0x0184                  OC1CON = 0x184
+                    0x0184                  _OC1CON = 0x184
+                    0x0184                  _OC1CONbits = 0x184
+                    0x0186                  OC2RS = 0x186
+                    0x0186                  _OC2RS = 0x186
+                    0x0188                  OC2R = 0x188
+                    0x0188                  _OC2R = 0x188
+                    0x018a                  OC2CON = 0x18a
+                    0x018a                  _OC2CON = 0x18a
+                    0x018a                  _OC2CONbits = 0x18a
+                    0x018c                  OC3RS = 0x18c
+                    0x018c                  _OC3RS = 0x18c
+                    0x018e                  OC3R = 0x18e
+                    0x018e                  _OC3R = 0x18e
+                    0x0190                  OC3CON = 0x190
+                    0x0190                  _OC3CON = 0x190
+                    0x0190                  _OC3CONbits = 0x190
+                    0x0192                  OC4RS = 0x192
+                    0x0192                  _OC4RS = 0x192
+                    0x0194                  OC4R = 0x194
+                    0x0194                  _OC4R = 0x194
+                    0x0196                  OC4CON = 0x196
+                    0x0196                  _OC4CON = 0x196
+                    0x0196                  _OC4CONbits = 0x196
+                    0x0198                  OC5RS = 0x198
+                    0x0198                  _OC5RS = 0x198
+                    0x019a                  OC5R = 0x19a
+                    0x019a                  _OC5R = 0x19a
+                    0x019c                  OC5CON = 0x19c
+                    0x019c                  _OC5CON = 0x19c
+                    0x019c                  _OC5CONbits = 0x19c
+                    0x0200                  I2C1RCV = 0x200
+                    0x0200                  _I2C1RCV = 0x200
+                    0x0202                  I2C1TRN = 0x202
+                    0x0202                  _I2C1TRN = 0x202
+                    0x0204                  I2C1BRG = 0x204
+                    0x0204                  _I2C1BRG = 0x204
+                    0x0206                  I2C1CON = 0x206
+                    0x0206                  _I2C1CON = 0x206
+                    0x0206                  _I2C1CONbits = 0x206
+                    0x0208                  I2C1STAT = 0x208
+                    0x0208                  _I2C1STAT = 0x208
+                    0x0208                  _I2C1STATbits = 0x208
+                    0x020a                  I2C1ADD = 0x20a
+                    0x020a                  _I2C1ADD = 0x20a
+                    0x020c                  I2C1MSK = 0x20c
+                    0x020c                  _I2C1MSK = 0x20c
+                    0x0210                  I2C2RCV = 0x210
+                    0x0210                  _I2C2RCV = 0x210
+                    0x0212                  I2C2TRN = 0x212
+                    0x0212                  _I2C2TRN = 0x212
+                    0x0214                  I2C2BRG = 0x214
+                    0x0214                  _I2C2BRG = 0x214
+                    0x0216                  I2C2CON = 0x216
+                    0x0216                  _I2C2CON = 0x216
+                    0x0216                  _I2C2CONbits = 0x216
+                    0x0218                  I2C2STAT = 0x218
+                    0x0218                  _I2C2STAT = 0x218
+                    0x0218                  _I2C2STATbits = 0x218
+                    0x021a                  I2C2ADD = 0x21a
+                    0x021a                  _I2C2ADD = 0x21a
+                    0x021c                  I2C2MSK = 0x21c
+                    0x021c                  _I2C2MSK = 0x21c
+                    0x0220                  U1MODE = 0x220
+                    0x0220                  _U1MODE = 0x220
+                    0x0220                  _U1MODEbits = 0x220
+                    0x0222                  U1STA = 0x222
+                    0x0222                  _U1STA = 0x222
+                    0x0222                  _U1STAbits = 0x222
+                    0x0224                  U1TXREG = 0x224
+                    0x0224                  _U1TXREG = 0x224
+                    0x0226                  U1RXREG = 0x226
+                    0x0226                  _U1RXREG = 0x226
+                    0x0228                  U1BRG = 0x228
+                    0x0228                  _U1BRG = 0x228
+                    0x0230                  U2MODE = 0x230
+                    0x0230                  _U2MODE = 0x230
+                    0x0230                  _U2MODEbits = 0x230
+                    0x0232                  U2STA = 0x232
+                    0x0232                  _U2STA = 0x232
+                    0x0232                  _U2STAbits = 0x232
+                    0x0234                  U2TXREG = 0x234
+                    0x0234                  _U2TXREG = 0x234
+                    0x0236                  U2RXREG = 0x236
+                    0x0236                  _U2RXREG = 0x236
+                    0x0238                  U2BRG = 0x238
+                    0x0238                  _U2BRG = 0x238
+                    0x0240                  SPI1STAT = 0x240
+                    0x0240                  _SPI1STAT = 0x240
+                    0x0240                  _SPI1STATbits = 0x240
+                    0x0242                  SPI1CON1 = 0x242
+                    0x0242                  _SPI1CON1 = 0x242
+                    0x0242                  _SPI1CON1bits = 0x242
+                    0x0244                  SPI1CON2 = 0x244
+                    0x0244                  _SPI1CON2 = 0x244
+                    0x0244                  _SPI1CON2bits = 0x244
+                    0x0248                  SPI1BUF = 0x248
+                    0x0248                  _SPI1BUF = 0x248
+                    0x0260                  SPI2STAT = 0x260
+                    0x0260                  _SPI2STAT = 0x260
+                    0x0260                  _SPI2STATbits = 0x260
+                    0x0262                  SPI2CON1 = 0x262
+                    0x0262                  _SPI2CON1 = 0x262
+                    0x0262                  _SPI2CON1bits = 0x262
+                    0x0264                  SPI2CON2 = 0x264
+                    0x0264                  _SPI2CON2 = 0x264
+                    0x0264                  _SPI2CON2bits = 0x264
+                    0x0268                  SPI2BUF = 0x268
+                    0x0268                  _SPI2BUF = 0x268
+                    0x02c0                  TRISA = 0x2c0
+                    0x02c0                  _TRISA = 0x2c0
+                    0x02c0                  _TRISAbits = 0x2c0
+                    0x02c2                  PORTA = 0x2c2
+                    0x02c2                  _PORTA = 0x2c2
+                    0x02c2                  _PORTAbits = 0x2c2
+                    0x02c4                  LATA = 0x2c4
+                    0x02c4                  _LATA = 0x2c4
+                    0x02c4                  _LATAbits = 0x2c4
+                    0x02c6                  ODCA = 0x2c6
+                    0x02c6                  _ODCA = 0x2c6
+                    0x02c6                  _ODCAbits = 0x2c6
+                    0x02c8                  TRISB = 0x2c8
+                    0x02c8                  _TRISB = 0x2c8
+                    0x02c8                  _TRISBbits = 0x2c8
+                    0x02ca                  PORTB = 0x2ca
+                    0x02ca                  _PORTB = 0x2ca
+                    0x02ca                  _PORTBbits = 0x2ca
+                    0x02cc                  LATB = 0x2cc
+                    0x02cc                  _LATB = 0x2cc
+                    0x02cc                  _LATBbits = 0x2cc
+                    0x02ce                  ODCB = 0x2ce
+                    0x02ce                  _ODCB = 0x2ce
+                    0x02ce                  _ODCBbits = 0x2ce
+                    0x02d0                  TRISC = 0x2d0
+                    0x02d0                  _TRISC = 0x2d0
+                    0x02d0                  _TRISCbits = 0x2d0
+                    0x02d2                  PORTC = 0x2d2
+                    0x02d2                  _PORTC = 0x2d2
+                    0x02d2                  _PORTCbits = 0x2d2
+                    0x02d4                  LATC = 0x2d4
+                    0x02d4                  _LATC = 0x2d4
+                    0x02d4                  _LATCbits = 0x2d4
+                    0x02d6                  ODCC = 0x2d6
+                    0x02d6                  _ODCC = 0x2d6
+                    0x02d6                  _ODCCbits = 0x2d6
+                    0x02fc                  PADCFG1 = 0x2fc
+                    0x02fc                  _PADCFG1 = 0x2fc
+                    0x02fc                  _PADCFG1bits = 0x2fc
+                    0x0300                  ADC1BUF0 = 0x300
+                    0x0300                  _ADC1BUF0 = 0x300
+                    0x0302                  ADC1BUF1 = 0x302
+                    0x0302                  _ADC1BUF1 = 0x302
+                    0x0304                  ADC1BUF2 = 0x304
+                    0x0304                  _ADC1BUF2 = 0x304
+                    0x0306                  ADC1BUF3 = 0x306
+                    0x0306                  _ADC1BUF3 = 0x306
+                    0x0308                  ADC1BUF4 = 0x308
+                    0x0308                  _ADC1BUF4 = 0x308
+                    0x030a                  ADC1BUF5 = 0x30a
+                    0x030a                  _ADC1BUF5 = 0x30a
+                    0x030c                  ADC1BUF6 = 0x30c
+                    0x030c                  _ADC1BUF6 = 0x30c
+                    0x030e                  ADC1BUF7 = 0x30e
+                    0x030e                  _ADC1BUF7 = 0x30e
+                    0x0310                  ADC1BUF8 = 0x310
+                    0x0310                  _ADC1BUF8 = 0x310
+                    0x0312                  ADC1BUF9 = 0x312
+                    0x0312                  _ADC1BUF9 = 0x312
+                    0x0314                  ADC1BUFA = 0x314
+                    0x0314                  _ADC1BUFA = 0x314
+                    0x0316                  ADC1BUFB = 0x316
+                    0x0316                  _ADC1BUFB = 0x316
+                    0x0318                  ADC1BUFC = 0x318
+                    0x0318                  _ADC1BUFC = 0x318
+                    0x031a                  ADC1BUFD = 0x31a
+                    0x031a                  _ADC1BUFD = 0x31a
+                    0x031c                  ADC1BUFE = 0x31c
+                    0x031c                  _ADC1BUFE = 0x31c
+                    0x031e                  ADC1BUFF = 0x31e
+                    0x031e                  _ADC1BUFF = 0x31e
+                    0x0320                  AD1CON1 = 0x320
+                    0x0320                  _AD1CON1 = 0x320
+                    0x0320                  _AD1CON1bits = 0x320
+                    0x0322                  AD1CON2 = 0x322
+                    0x0322                  _AD1CON2 = 0x322
+                    0x0322                  _AD1CON2bits = 0x322
+                    0x0324                  AD1CON3 = 0x324
+                    0x0324                  _AD1CON3 = 0x324
+                    0x0324                  _AD1CON3bits = 0x324
+                    0x0328                  AD1CHS = 0x328
+                    0x0328                  _AD1CHS = 0x328
+                    0x0328                  _AD1CHSbits = 0x328
+                    0x032c                  AD1PCFG = 0x32c
+                    0x032c                  _AD1PCFG = 0x32c
+                    0x032c                  _AD1PCFGbits = 0x32c
+                    0x0330                  AD1CSSL = 0x330
+                    0x0330                  _AD1CSSL = 0x330
+                    0x0330                  _AD1CSSLbits = 0x330
+                    0x0600                  PMCON = 0x600
+                    0x0600                  _PMCON = 0x600
+                    0x0600                  _PMCONbits = 0x600
+                    0x0602                  PMMODE = 0x602
+                    0x0602                  _PMMODE = 0x602
+                    0x0602                  _PMMODEbits = 0x602
+                    0x0604                  PMADDR = 0x604
+                    0x0604                  _PMADDR = 0x604
+                    0x0604                  _PMADDRbits = 0x604
+                    0x0604                  PMDOUT1 = 0x604
+                    0x0604                  _PMDOUT1 = 0x604
+                    0x0604                  _PMDOUT1bits = 0x604
+                    0x0606                  PMDOUT2 = 0x606
+                    0x0606                  _PMDOUT2 = 0x606
+                    0x0608                  PMDIN1 = 0x608
+                    0x0608                  _PMDIN1 = 0x608
+                    0x060a                  PMDIN2 = 0x60a
+                    0x060a                  _PMDIN2 = 0x60a
+                    0x060c                  PMAEN = 0x60c
+                    0x060c                  _PMAEN = 0x60c
+                    0x060c                  _PMAENbits = 0x60c
+                    0x060e                  PMSTAT = 0x60e
+                    0x060e                  _PMSTAT = 0x60e
+                    0x060e                  _PMSTATbits = 0x60e
+                    0x0620                  ALRMVAL = 0x620
+                    0x0620                  _ALRMVAL = 0x620
+                    0x0622                  ALCFGRPT = 0x622
+                    0x0622                  _ALCFGRPT = 0x622
+                    0x0622                  _ALCFGRPTbits = 0x622
+                    0x0624                  RTCVAL = 0x624
+                    0x0624                  _RTCVAL = 0x624
+                    0x0626                  RCFGCAL = 0x626
+                    0x0626                  _RCFGCAL = 0x626
+                    0x0626                  _RCFGCALbits = 0x626
+                    0x0630                  CMCON = 0x630
+                    0x0630                  _CMCON = 0x630
+                    0x0630                  _CMCONbits = 0x630
+                    0x0632                  CVRCON = 0x632
+                    0x0632                  _CVRCON = 0x632
+                    0x0632                  _CVRCONbits = 0x632
+                    0x0640                  CRCCON = 0x640
+                    0x0640                  _CRCCON = 0x640
+                    0x0640                  _CRCCONbits = 0x640
+                    0x0642                  CRCXOR = 0x642
+                    0x0642                  _CRCXOR = 0x642
+                    0x0642                  _CRCXORbits = 0x642
+                    0x0644                  CRCDAT = 0x644
+                    0x0644                  _CRCDAT = 0x644
+                    0x0646                  CRCWDAT = 0x646
+                    0x0646                  _CRCWDAT = 0x646
+                    0x0680                  RPINR0 = 0x680
+                    0x0680                  _RPINR0 = 0x680
+                    0x0680                  _RPINR0bits = 0x680
+                    0x0682                  RPINR1 = 0x682
+                    0x0682                  _RPINR1 = 0x682
+                    0x0682                  _RPINR1bits = 0x682
+                    0x0686                  RPINR3 = 0x686
+                    0x0686                  _RPINR3 = 0x686
+                    0x0686                  _RPINR3bits = 0x686
+                    0x0688                  RPINR4 = 0x688
+                    0x0688                  _RPINR4 = 0x688
+                    0x0688                  _RPINR4bits = 0x688
+                    0x068e                  RPINR7 = 0x68e
+                    0x068e                  _RPINR7 = 0x68e
+                    0x068e                  _RPINR7bits = 0x68e
+                    0x0690                  RPINR8 = 0x690
+                    0x0690                  _RPINR8 = 0x690
+                    0x0690                  _RPINR8bits = 0x690
+                    0x0692                  RPINR9 = 0x692
+                    0x0692                  _RPINR9 = 0x692
+                    0x0692                  _RPINR9bits = 0x692
+                    0x0696                  RPINR11 = 0x696
+                    0x0696                  _RPINR11 = 0x696
+                    0x0696                  _RPINR11bits = 0x696
+                    0x06a4                  RPINR18 = 0x6a4
+                    0x06a4                  _RPINR18 = 0x6a4
+                    0x06a4                  _RPINR18bits = 0x6a4
+                    0x06a6                  RPINR19 = 0x6a6
+                    0x06a6                  _RPINR19 = 0x6a6
+                    0x06a6                  _RPINR19bits = 0x6a6
+                    0x06a8                  RPINR20 = 0x6a8
+                    0x06a8                  _RPINR20 = 0x6a8
+                    0x06a8                  _RPINR20bits = 0x6a8
+                    0x06aa                  RPINR21 = 0x6aa
+                    0x06aa                  _RPINR21 = 0x6aa
+                    0x06aa                  _RPINR21bits = 0x6aa
+                    0x06ac                  RPINR22 = 0x6ac
+                    0x06ac                  _RPINR22 = 0x6ac
+                    0x06ac                  _RPINR22bits = 0x6ac
+                    0x06ae                  RPINR23 = 0x6ae
+                    0x06ae                  _RPINR23 = 0x6ae
+                    0x06ae                  _RPINR23bits = 0x6ae
+                    0x06c0                  RPOR0 = 0x6c0
+                    0x06c0                  _RPOR0 = 0x6c0
+                    0x06c0                  _RPOR0bits = 0x6c0
+                    0x06c2                  RPOR1 = 0x6c2
+                    0x06c2                  _RPOR1 = 0x6c2
+                    0x06c2                  _RPOR1bits = 0x6c2
+                    0x06c4                  RPOR2 = 0x6c4
+                    0x06c4                  _RPOR2 = 0x6c4
+                    0x06c4                  _RPOR2bits = 0x6c4
+                    0x06c6                  RPOR3 = 0x6c6
+                    0x06c6                  _RPOR3 = 0x6c6
+                    0x06c6                  _RPOR3bits = 0x6c6
+                    0x06c8                  RPOR4 = 0x6c8
+                    0x06c8                  _RPOR4 = 0x6c8
+                    0x06c8                  _RPOR4bits = 0x6c8
+                    0x06ca                  RPOR5 = 0x6ca
+                    0x06ca                  _RPOR5 = 0x6ca
+                    0x06ca                  _RPOR5bits = 0x6ca
+                    0x06cc                  RPOR6 = 0x6cc
+                    0x06cc                  _RPOR6 = 0x6cc
+                    0x06cc                  _RPOR6bits = 0x6cc
+                    0x06ce                  RPOR7 = 0x6ce
+                    0x06ce                  _RPOR7 = 0x6ce
+                    0x06ce                  _RPOR7bits = 0x6ce
+                    0x06d0                  RPOR8 = 0x6d0
+                    0x06d0                  _RPOR8 = 0x6d0
+                    0x06d0                  _RPOR8bits = 0x6d0
+                    0x06d2                  RPOR9 = 0x6d2
+                    0x06d2                  _RPOR9 = 0x6d2
+                    0x06d2                  _RPOR9bits = 0x6d2
+                    0x06d4                  RPOR10 = 0x6d4
+                    0x06d4                  _RPOR10 = 0x6d4
+                    0x06d4                  _RPOR10bits = 0x6d4
+                    0x06d6                  RPOR11 = 0x6d6
+                    0x06d6                  _RPOR11 = 0x6d6
+                    0x06d6                  _RPOR11bits = 0x6d6
+                    0x06d8                  RPOR12 = 0x6d8
+                    0x06d8                  _RPOR12 = 0x6d8
+                    0x06d8                  _RPOR12bits = 0x6d8
+                    0x0740                  RCON = 0x740
+                    0x0740                  _RCON = 0x740
+                    0x0740                  _RCONbits = 0x740
+                    0x0742                  OSCCON = 0x742
+                    0x0742                  _OSCCON = 0x742
+                    0x0742                  _OSCCONbits = 0x742
+                    0x0742                  OSCCONL = 0x742
+                    0x0742                  _OSCCONL = 0x742
+                    0x0743                  OSCCONH = 0x743
+                    0x0743                  _OSCCONH = 0x743
+                    0x0744                  CLKDIV = 0x744
+                    0x0744                  _CLKDIV = 0x744
+                    0x0744                  _CLKDIVbits = 0x744
+                    0x0748                  OSCTUN = 0x748
+                    0x0748                  _OSCTUN = 0x748
+                    0x0748                  _OSCTUNbits = 0x748
+                    0x0760                  NVMCON = 0x760
+                    0x0760                  _NVMCON = 0x760
+                    0x0760                  _NVMCONbits = 0x760
+                    0x0766                  NVMKEY = 0x766
+                    0x0766                  _NVMKEY = 0x766
+                    0x0770                  PMD1 = 0x770
+                    0x0770                  _PMD1 = 0x770
+                    0x0770                  _PMD1bits = 0x770
+                    0x0772                  PMD2 = 0x772
+                    0x0772                  _PMD2 = 0x772
+                    0x0772                  _PMD2bits = 0x772
+                    0x0774                  PMD3 = 0x774
+                    0x0774                  _PMD3 = 0x774
+                    0x0774                  _PMD3bits = 0x774
+                    0x0140                  IC1 = 0x140
+                    0x0140                  _IC1 = 0x140
+                    0x0144                  IC2 = 0x144
+                    0x0144                  _IC2 = 0x144
+                    0x0148                  IC3 = 0x148
+                    0x0148                  _IC3 = 0x148
+                    0x014c                  IC4 = 0x14c
+                    0x014c                  _IC4 = 0x14c
+                    0x0150                  IC5 = 0x150
+                    0x0150                  _IC5 = 0x150
+                    0x0180                  OC1 = 0x180
+                    0x0180                  _OC1 = 0x180
+                    0x0186                  OC2 = 0x186
+                    0x0186                  _OC2 = 0x186
+                    0x018c                  OC3 = 0x18c
+                    0x018c                  _OC3 = 0x18c
+                    0x0192                  OC4 = 0x192
+                    0x0192                  _OC4 = 0x192
+                    0x0198                  OC5 = 0x198
+                    0x0198                  _OC5 = 0x198
+                    0x0240                  SPI1 = 0x240
+                    0x0240                  _SPI1 = 0x240
+                    0x0260                  SPI2 = 0x260
+                    0x0260                  _SPI2 = 0x260
+                    0x0220                  UART1 = 0x220
+                    0x0220                  _UART1 = 0x220
+                    0x0230                  UART2 = 0x230
+                    0x0230                  _UART2 = 0x230
+                    0x0001                  __MPLAB_BUILD = 0x1
+START GROUP
+LOAD c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libpic30-coff.a
+LOAD c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libm-coff.a
+LOAD c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libc-coff.a
+END GROUP
+OUTPUT(Balloon_xmit_v11.cof coff-pic30)
+LOAD data_init
+
+__c30_signature
+
+.nbss               0x0800        0x6d4
+ .nbss              0x0800        0x358 Objects - ballonXmit\MainDemo.o
+                    0x080a                  BALLOON_raw_pack
+                    0x08a0                  rf_xmit_data
+                    0x08c1                  xmit_frame
+                    0x0ab6                  AppConfig
+                    0x0b4f                  AN0String
+ .nbss              0x0b58        0x1ce Objects - ballonXmit\ZeroconfMulticastDNS.o
+ .nbss              0x0d26         0xe4 Objects - ballonXmit\UDP.o
+                    0x0d2c                  UDPSocketInfo
+                    0x0e04                  activeUDPSocket
+                    0x0e06                  UDPTxCount
+                    0x0e08                  UDPRxCount
+ .nbss              0x0e0a         0xca Objects - ballonXmit\TCP.o
+
+.ndata              0x0ed4         0x9e
+ .ndata             0x0ed4         0x9e Objects - ballonXmit\Balloon_OSC.o
+                    0x0ed4                  OSCXmsg
+                    0x0ef2                  OSCYmsg
+                    0x0f10                  OSCZmsg
+                    0x0f2e                  namespace_fire
+                    0x0f4c                  namespace_uplight
+                    0x0f6a                  padlength
+                    0x0f6c                  myLightNum
+                    0x0f6e                  boosh_state
+                    0x0f6f                  update_boosh
+
+.nbss               0x0f72        0x102
+ .nbss              0x0f72         0x6a Objects - ballonXmit\DHCPs.o
+                    0x0f7c                  DhcpIpPool
+ .nbss              0x0fdc         0x5a Objects - ballonXmit\Balloon_OSC.o
+                    0x0fdc                  OSC_remote
+                    0x0fe6                  OSC_MSG
+                    0x102c                  boosh_on
+ .nbss              0x1036         0x16 Objects - ballonXmit\WFMac.o
+                    0x104a                  g_rxIndexSetBeyondBuffer
+ .nbss              0x104c         0x16 Objects - ballonXmit\ARP.o
+ .nbss              0x1062         0x12 Objects - ballonXmit\WFDriverCom.o
+                    0x1070                  RawMoveState
+
+.ndata              0x1074          0xe
+ .ndata             0x1074          0xe Objects - ballonXmit\MainDemo.o
+                    0x1074                  my_board_addr
+                    0x1075                  xmit_frame_addr
+                    0x1076                  transmit_now
+                    0x1078                  gBytesToXmit
+                    0x107c                  new_balloon_pack
+                    0x107d                  prev_channel
+                    0x107e                  prev_datarate
+                    0x1080                  __C30_UART
+
+.nbss               0x1082          0xe
+ .nbss              0x1082          0xe Objects - ballonXmit\StackTsk.o
+                    0x1086                  remoteNode
+
+.ndata              0x1090          0x8
+ .ndata             0x1090          0x8 Objects - ballonXmit\WFDriverCom.o
+                    0x1090                  g_DhcpSuccessful
+                    0x1092                  g_WiFiConnectionChanged
+                    0x1094                  g_WiFiConnection
+                    0x1096                  g_dhcpInProgress
+
+.nbss               0x1098          0x8
+ .nbss              0x1098          0x8 Objects - ballonXmit\WFPowerSave.o
+                    0x109e                  g_rxDtim
+
+_02c5807052aba9a8
+                    0x10a0          0x6
+ _02c5807052aba9a8
+                    0x10a0          0x6 Objects - ballonXmit\Tick.o
+
+.ndata              0x10a6          0xc
+ .ndata             0x10a6          0x6 Objects - ballonXmit\DHCPs.o
+                    0x10a8                  bDHCPServerEnabled
+ .ndata             0x10ac          0x6 Objects - ballonXmit\ZeroconfMulticastDNS.o
+                    0x10ac                  mDNS_responder_state
+                    0x10ae                  CONST_STR_local
+                    0x10b0                  mDNS_socket
+
+.nbss               0x10b2          0xe
+ .nbss              0x10b2          0x6 Objects - ballonXmit\WFDriverRaw.o
+                    0x10b2                  RawWindowReady
+                    0x10b6                  RawWindowState
+ .nbss              0x10b8          0x4 Objects - ballonXmit\Tick.o
+ .nbss              0x10bc          0x4 Objects - ballonXmit\Announce.o
+
+.ndata              0x10c0          0x4
+ .ndata             0x10c0          0x4 Objects - ballonXmit\Helpers.o
+
+.nbss               0x10c4          0x8
+ .nbss              0x10c4          0x4 Objects - ballonXmit\IP.o
+ .nbss              0x10c8          0x4 Objects - ballonXmit\WFMgmtMsg.o
+
+.ndata              0x10cc          0x2
+ .ndata             0x10cc          0x2 Objects - ballonXmit\UDP.o
+
+_02c9c54052aba9aa
+                    0x10ce          0x2
+ _02c9c54052aba9aa
+                    0x10ce          0x2 Objects - ballonXmit\UDP.o
+
+.ndata              0x10d0          0x2
+ .ndata             0x10d0          0x2 Objects - ballonXmit\TCP.o
+
+_02d54d2052aba9bd
+                    0x10d2          0x2
+ _02d54d2052aba9bd
+                    0x10d2          0x2 Objects - ballonXmit\TCP.o
+
+.nbss               0x10d4          0x2
+ .nbss              0x10d4          0x2 Objects - ballonXmit\WFConnectionManager.o
+
+.ndata              0x10d6          0xc
+ .ndata             0x10d6          0x2 Objects - ballonXmit\WFInit.o
+                    0x10d6                  gRFModuleVer1209orLater
+ .ndata             0x10d8          0x2 Objects - ballonXmit\WFPowerSave.o
+ .ndata             0x10da          0x2 Objects - ballonXmit\WFConnectionAlgorithm.o
+ .ndata             0x10dc          0x2 Objects - ballonXmit\WFMgmtMsg.o
+                    0x10dc                  g_WaitingForMgmtResponse
+ .ndata             0x10de          0x2 Objects - ballonXmit\WFDriverRaw.o
+                    0x10de                  g_HostRAWDataPacketReceived
+ .ndata             0x10e0          0x2 Objects - ballonXmit\ZeroconfHelper.o
+                    0x10e0                  zeroconf_dbg_level
+
+.data               0x10e2         0xa0
+ .data              0x10e2         0xa0 c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libc-coff.a(doprnt_cdnopuxX.XXo)
+
+.dconst             0x1182         0x2a
+ .dconst            0x1182         0x2a c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libc-coff.a(doprnt_cdnopuxX.XXo)
+
+.data               0x11ac         0x26
+ .data              0x11ac         0x26 c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libc-coff.a(_iob.XXo)
+                    0x11ac                  _Files
+                    0x11ae                  _iob
+
+.bss                0x11d2          0x6
+ .bss               0x11d2          0x6 c:/program files (x86)/microchip/mplab c30/bin/bin/../../lib\libc-coff.a(_iob.XXo)
+                    0x11d2                  _sobuf
+                    0x11d4                  _sibuf
+                    0x11d6                  _outdone
+
+.const              0x8d3a        0x1fc load address 0x000d3a  
+ .const             0x8d3a         0xaa Objects - ballonXmit\WFConsoleMsgs.o
+                    0x8d3a                  helpCmd
+                    0x8d3f                  helpHelp
+                    0x8d52                  getwfverCmd
+                    0x8d5b                  getwfverHelp
+                    0x8d74                  resetCmd
+                    0x8d7a                  resetHelp
+                    0x8d89                  clsCmd
+                    0x8d8d                  clsHelp
+                    0x8d9b                  seeDocHelp
+                    0x8dad                  pingCmd
+                    0x8db2                  pingHelp
+                    0x8dc4                  g_consoleCmd
+                    0x8de2                  g_numCmds
+ .const             0x8de4         0xa6 Objects - ballonXmit\ZeroconfMulticastDNS.o
+ .const             0x8e8a         0x4e Objects - ballonXmit\MainDemo.o
+ .const             0x8ed8         0x28 Objects - ballonXmit\Balloon_OSC.o
+ .const             0x8f00         0x1c Objects - ballonXmit\Announce.o
+ .const             0x8f1c          0xc Objects - ballonXmit\TCP.o
+                    0x8f1c                  TCPSocketInitializer
+ .const             0x8f28          0x6 Objects - ballonXmit\WFInit.o
+ .const             0x8f2e          0x4 Objects - ballonXmit\WFDriverRaw.o
+ .const             0x8f32          0x4 Objects - ballonXmit\WFConsoleMsgHandler.o
+
+.text             0x000f36       0x8814
+ .text            0x000f36       0x2230 Objects - ballonXmit\TCP.o
+                  0x000fd2                  TCPInit
+                  0x0010b6                  TCPOpen
+                  0x0011c4                  TCPWasReset
+                  0x0011f4                  TCPIsConnected
+                  0x00121c                  TCPDisconnect
+                  0x0012b4                  TCPClose
+                  0x0012cc                  TCPGetRemoteInfo
+                  0x0012f8                  TCPFlush
+                  0x00131a                  TCPIsPutReady
+                  0x001370                  TCPPut
+                  0x001408                  TCPPutArray
+                  0x0014e2                  TCPPutString
+                  0x001500                  TCPGetTxFIFOFull
+                  0x00152e                  TCPDiscard
+                  0x00154c                  TCPIsGetReady
+                  0x00158a                  TCPGet
+                  0x0015f4                  TCPGetArray
+                  0x0016b0                  TCPGetRxFIFOFree
+                  0x0016dc                  TCPPeekArray
+                  0x001788                  TCPPeek
+                  0x0017a0                  TCPFindArrayEx
+                  0x001a2a                  TCPFindEx
+                  0x001a48                  TCPTick
+                  0x001e42                  TCPProcess
+                  0x002f4e                  TCPAdjustFIFOSize
+ .text            0x003166       0x1b32 Objects - ballonXmit\ZeroconfMulticastDNS.o
+                  0x0037e4                  mDNSSDFillResRecords
+                  0x0039dc                  mDNSServiceUpdate
+                  0x003a7e                  mDNSServiceDeRegister
+                  0x003b2c                  mDNSServiceRegister
+                  0x003c28                  mDNSAnnounce
+                  0x004622                  mDNSFillHostRecord
+                  0x0046b4                  mDNSHostRegister
+                  0x00472c                  mDNSInitialize
+                  0x0047be                  mDNSProcessInternal
+                  0x004adc                  mDNSProcess
+                  0x004bf2                  mDNSMulticastFilterRegister
+                  0x004c0a                  mDNSDumpInfo
+ .text            0x004c98        0xa8c Objects - ballonXmit\DHCPs.o
+                  0x004c98                  DHCPServerTask
+                  0x0056fa                  DHCPServer_Disable
+                  0x005714                  DHCPServer_Enable
+ .text            0x005724        0x9d8 Objects - ballonXmit\nrf24l01.o
+                  0x005724                  DelayUS
+                  0x005750                  nrf24l01_initialize
+                  0x0058be                  nrf24l01_initialize_debug
+                  0x005946                  nrf24l01_initialize_debug_lite
+                  0x00596a                  nrf24l01_power_up
+                  0x0059b6                  nrf24l01_power_up_param
+                  0x0059f0                  nrf24l01_power_down
+                  0x005a1e                  nrf24l01_power_down_param
+                  0x005a38                  nrf24l01_set_as_rx
+                  0x005a6e                  nrf24l01_set_as_rx_param
+                  0x005a96                  nrf24l01_rx_standby_to_active
+                  0x005a9e                  nrf24l01_rx_active_to_standby
+                  0x005aa6                  nrf24l01_set_as_tx
+                  0x005ad2                  nrf24l01_set_as_tx_param
+                  0x005af4                  nrf24l01_write_register
+                  0x005b12                  nrf24l01_read_register
+                  0x005b2c                  nrf24l01_write_tx_payload
+                  0x005b4e                  nrf24l01_write_tx_payload_noack
+                  0x005b70                  nrf24l01_read_rx_payload
+                  0x005b8c                  nrf24l01_flush_tx
+                  0x005b9e                  nrf24l01_flush_rx
+                  0x005bb0                  nrf24l01_reuse_tx_pl
+                  0x005bc2                  nrf24l01_nop
+                  0x005bd4                  nrf24l01_transmit
+                  0x005be4                  nrf24l01_clear_ce
+                  0x005bf2                  nrf24l01_set_ce
+                  0x005c00                  nrf24l01_ce_pin_active
+                  0x005c1c                  nrf24l01_clear_csn
+                  0x005c2a                  nrf24l01_set_csn
+                  0x005c36                  nrf24l01_csn_pin_active
+                  0x005c52                  nrf24l01_set_tx_addr
+                  0x005c64                  nrf24l01_set_rx_addr
+                  0x005c80                  nrf24l01_set_rx_pw
+                  0x005ca4                  nrf24l01_get_rx_pw
+                  0x005cca                  nrf24l01_get_config
+                  0x005cdc                  nrf24l01_set_config
+                  0x005cec                  nrf24l01_get_rf_ch
+                  0x005cfe                  nrf24l01_set_rf_ch
+                  0x005d16                  nrf24l01_get_observe_tx
+                  0x005d28                  nrf24l01_get_plos_cnt
+                  0x005d42                  nrf24l01_clear_plos_cnt
+                  0x005d58                  nrf24l01_clear_plos_cnt_param
+                  0x005d68                  nrf24l01_get_arc_cnt
+                  0x005d7c                  nrf24l01_aa_enabled
+                  0x005dac                  nrf24l01_aa_enable
+                  0x005dea                  nrf24l01_aa_disable
+                  0x005e2a                  nrf24l01_rx_pipe_enabled
+                  0x005e5a                  nrf24l01_rx_pipe_enable
+                  0x005e98                  nrf24l01_rx_pipe_disable
+                  0x005ed8                  nrf24l01_cd_active
+                  0x005eea                  nrf24l01_get_fifo_status
+                  0x005efc                  nrf24l01_get_status
+                  0x005f06                  nrf24l01_fifo_tx_reuse
+                  0x005f1c                  nrf24l01_fifo_tx_full
+                  0x005f32                  nrf24l01_fifo_tx_empty
+                  0x005f46                  nrf24l01_fifo_rx_full
+                  0x005f5a                  nrf24l01_fifo_rx_empty
+                  0x005f6e                  nrf24l01_irq_pin_active
+                  0x005f88                  nrf24l01_irq_rx_dr_active
+                  0x005f96                  nrf24l01_irq_tx_ds_active
+                  0x005fa4                  nrf24l01_irq_max_rt_active
+                  0x005fb0                  nrf24l01_irq_clear_all
+                  0x005fc2                  nrf24l01_irq_clear_rx_dr
+                  0x005fd4                  nrf24l01_irq_clear_tx_ds
+                  0x005fe6                  nrf24l01_irq_clear_max_rt
+                  0x005ff8                  nrf24l01_get_rx_pipe
+                  0x006004                  nrf24l01_get_rx_pipe_from_status
+                  0x006014                  nrf24l01_clear_flush
+                  0x006020                  nrf24l01_get_all_registers
+                  0x006082                  nrf24l01_execute_command
+                  0x0060ac                  nrf24l01_spi_send_read
+ .text            0x0060fc        0x906 Objects - ballonXmit\WFMac.o
+                  0x00627a                  MACProcess
+                  0x0062ae                  WFGetTCBSize
+                  0x0062b6                  MACInit
+                  0x0062c0                  RawInit
+                  0x00630a                  MACIsLinked
+                  0x006314                  MACIsTxReady
+                  0x006360                  WFisTxMgmtReady
+                  0x006394                  WFFreeMgmtTx
+                  0x0063c6                  SendRAWManagementFrame
+                  0x0063d6                  RawGetMgmtRxBuffer
+                  0x006404                  SetRawRxMgmtInProgress
+                  0x006418                  isRawRxMgmtInProgress
+                  0x006420                  MACDiscardRx
+                  0x00642a                  MACGetFreeRxSize
+                  0x006486                  MACGetHeader
+                  0x006582                  MACPutHeader
+                  0x0065e0                  MACFlush
+                  0x006614                  MACSetReadPtrInRx
+                  0x006626                  MACSetWritePtr
+                  0x00663c                  MACSetReadPtr
+                  0x006652                  MACCalcRxChecksum
+                  0x00667e                  MACMemCopyAsync
+                  0x006898                  MACIsMemCopyDone
+                  0x0068a0                  MACGet
+                  0x0068c6                  MACGetArray
+                  0x006910                  MACPut
+                  0x006938                  MACPutArray
+                  0x006960                  CalcIPBufferChecksum
+                  0x0069f6                  MACPowerDown
+                  0x0069fc                  MACPowerUp
+ .text            0x006a02        0x724 Objects - ballonXmit\Helpers.o
+                  0x006a02                  LFSRSeedRand
+                  0x006a42                  LFSRRand
+                  0x006ab0                  GenerateRandomDWORD
+                  0x006ba6                  StringToIPAddress
+                  0x006d2e                  uitoa
+                  0x006dac                  hexatob
+                  0x006e22                  btohexa_high
+                  0x006e4a                  btohexa_low
+                  0x006e70                  stricmppgm2ram
+                  0x006f08                  swaps
+                  0x006f22                  swapl
+                  0x006f80                  CalcIPChecksum
+                  0x006ff4                  strupr
+                  0x00702e                  FormatNetBIOSName
+                  0x007076                  strnchr
+                  0x0070bc                  strncpy_m
+ .text            0x007126        0x6a8 Objects - ballonXmit\MainDemo.o
+                  0x007126                  _DefaultInterrupt
+                  0x00713a                  _OscillatorFail
+                  0x00714e                  _AddressError
+                  0x007162                  _StackError
+                  0x007176                  _MathError
+                  0x00718a                  LEDtest
+                  0x0071b0                  InitializeSPI2
+                  0x0071c4                  InitRFbuffer
+                  0x0071e0                  InitBlobArray
+                  0x007202                  test_xmit
+                  0x00725c                  nordic_XMIT
+                  0x00730c                  blob_xmit
+                  0x0073a4                  main
+                  0x007582                  DisplayIPValue
+ .text            0x0077ce        0x642 Objects - ballonXmit\UDP.o
+                  0x0077ce                  UDPInit
+                  0x0077e8                  UDPOpenEx
+                  0x0078c6                  UDPTask
+                  0x0079ee                  UDPIsOpened
+                  0x007a10                  UDPClose
+                  0x007a48                  UDPSetTxBuffer
+                  0x007a5c                  UDPSetRxBuffer
+                  0x007a70                  UDPIsPutReady
+                  0x007aa6                  UDPPut
+                  0x007ada                  UDPPutArray
+                  0x007b12                  UDPPutString
+                  0x007b28                  UDPFlush
+                  0x007b84                  UDPIsGetReady
+                  0x007bb4                  UDPGet
+                  0x007bea                  UDPGetArray
+                  0x007c34                  UDPDiscard
+                  0x007c50                  UDPProcess
+ .text            0x007e10        0x42e Objects - ballonXmit\WFDriverCom.o
+                  0x007e10                  WiFiTask
+                  0x007e98                  SignalDHCPSuccessful
+                  0x007ea6                  SetDhcpProgressState
+                  0x007ebe                  SignalWiFiConnectionChanged
+                  0x007ece                  WFProcess
+                  0x007f6c                  Read8BitWFRegister
+                  0x007f92                  Write8BitWFRegister
+                  0x007fb8                  Read16BitWFRegister
+                  0x007fe6                  Write16BitWFRegister
+                  0x008012                  WriteWFArray
+                  0x008046                  ReadWFArray
+                  0x00815c                  WFEintHandler
+                  0x0081da                  ReenablePowerSaveMode
+                  0x0081e0                  WFHardwareInit
+ .text            0x00823e        0x3fa Objects - ballonXmit\ARP.o
+                  0x00823e                  ARPSendPkt
+                  0x0082fa                  ARPInit
+                  0x008340                  ARPProcess
+                  0x008440                  ARPResolve
+                  0x00850c                  ARPIsResolved
+                  0x008606                  SwapARPPacket
+ .text            0x008638        0x3f8 Objects - ballonXmit\WFConnectionAlgorithm.o
+                  0x008638                  WF_CASetElements
+                  0x0086da                  WF_CASetElementsN
+                  0x0086f8                  WF_CAGetElements
+                  0x008742                  WF_CASetScanType
+                  0x008752                  WF_CAGetScanType
+                  0x008764                  WF_CASetMinChannelTime
+                  0x00877e                  WF_CAGetMinChannelTime
+                  0x00879e                  WF_CASetMaxChannelTime
+                  0x0087b8                  WF_CAGetMaxChannelTime
+                  0x0087d8                  WF_CASetProbeDelay
+                  0x0087f2                  WF_CAGetProbeDelay
+                  0x008812                  WF_CASetScanCount
+                  0x008822                  WF_CAGetScanCount
+                  0x008834                  WF_CASetRssi
+                  0x008844                  WF_CAGetRssi
+                  0x008856                  WF_CASetConnectionProfileList
+                  0x00885e                  WF_CAGetConnectionProfileList
+                  0x008866                  WF_CASetListRetryCount
+                  0x008876                  WF_CAGetListRetryCount
+                  0x008888                  WF_CASetEventNotificationAction
+                  0x008894                  WF_CAGetEventNotificationAction
+                  0x0088a4                  WF_CASetBeaconTimeoutAction
+                  0x0088b4                  WF_CAGetBeaconTimeoutAction
+                  0x0088c6                  WF_CASetDeauthAction
+                  0x0088d6                  WF_CAGetDeauthAction
+                  0x0088e8                  WF_CASetChannelList
+                  0x0088fa                  WF_CAGetChannelList
+                  0x008936                  WF_CASetListenInterval
+                  0x008950                  WF_CAGetListenInterval
+                  0x008970                  WF_CASetBeaconTimeout
+                  0x008980                  WF_CAGetBeaconTimeout
+                  0x00899e                  GetEventNotificationMask
+                  0x008a1e                  WF_DisableModuleConnectionManager
+ .text            0x008a30        0x3e4 Objects - ballonXmit\WFDriverRaw.o
+                  0x008a30                  AllocateMgmtTxBuffer
+                  0x008a78                  DeallocateMgmtRxBuffer
+                  0x008a92                  AllocateDataTxBuffer
+                  0x008ade                  DeallocateDataTxBuffer
+                  0x008af6                  DeallocateDataRxBuffer
+                  0x008b06                  RawSendTxBuffer
+                  0x008b20                  RawMountRxBuffer
+                  0x008b3c                  RawToRawCopy
+                  0x008b50                  PushRawWindow
+                  0x008b62                  PopRawWindow
+                  0x008b7a                  ScratchMount
+                  0x008bb4                  ScratchUnmount
+                  0x008bd4                  RawRead
+                  0x008bf0                  RawWrite
+                  0x008c80                  RawSetIndex
+                  0x008cf8                  RawGetIndex
+                  0x008d1e                  RawGetByte
+                  0x008d54                  RawSetByte
+                  0x008df6                  SendRAWDataFrame
+ .text            0x008e14        0x366 Objects - ballonXmit\WFConnectionProfile.o
+                  0x008e14                  WF_CPCreate
+                  0x008e42                  WF_CPDelete
+                  0x008e66                  WF_CPGetIds
+                  0x008e8e                  WF_CPSetElements
+                  0x008eb2                  WF_CPGetElements
+                  0x008ec8                  WF_CPSetSsidType
+                  0x008edc                  WF_CPGetSsidType
+                  0x008ef2                  WF_CPSetSsid
+                  0x008f08                  WF_CPGetSsid
+                  0x008f48                  WF_CPSetBssid
+                  0x008f5c                  WF_CPGetBssid
+                  0x008f72                  WF_CPSetNetworkType
+                  0x008f86                  WF_CPGetNetworkType
+                  0x008f9c                  WF_CPSetWepKeyType
+                  0x008fb0                  WF_CPGetWepKeyType
+                  0x008fc6                  WF_CPSetSecurity
+                  0x00903e                  WF_CPGetSecurity
+                  0x0090a8                  WF_CPSetDefaultWepKeyIndex
+                  0x0090bc                  WF_CPGetDefaultWepKeyIndex
+                  0x0090d2                  WF_CPSetAdHocBehavior
+                  0x0090e6                  WF_CPGetAdHocBehavior
+ .text            0x00917a        0x352 Objects - ballonXmit\WFParamMsg.o
+                  0x00917a                  WFEnableMRF24WB0MMode
+                  0x00918c                  WFEnableBroadcastProbeResponse
+                  0x00919e                  WF_SetLinkDownThreshold
+                  0x0091ae                  WFEnableDeferredPowerSave
+                  0x0091c0                  WF_GetDeviceInfo
+                  0x0091e2                  WF_SetMacAddress
+                  0x0091f2                  WF_GetMacAddress
+                  0x009202                  WF_SetMultiCastFilter
+                  0x009264                  WF_GetMultiCastFilter
+                  0x0092bc                  WF_SetTxDataConfirm
+                  0x0092cc                  WF_GetTxDataConfirm
+                  0x0092dc                  WF_SetRegionalDomain
+                  0x0092ec                  WF_GetRegionalDomain
+                  0x0092fc                  WF_SetRtsThreshold
+                  0x009316                  WF_GetRtsThreshold
+                  0x009334                  WF_GetMacStats
+                  0x009468                  SendSetParamMsg
+                  0x009498                  SendGetParamMsg
+ .text            0x0094cc        0x27e Objects - ballonXmit\Balloon_OSC.o
+                  0x0094cc                  OSC_update_namespace
+                  0x00952c                  OSC_xmit_arp
+                  0x009560                  OSC_accl
+                  0x009624                  OSCServer
+
+.dinit            0x00974a        0x212
+ .dinit           0x00974a        0x212 data_init
+
+.text             0x00995c       0x1244
+ .text            0x00995c        0x1f4 Objects - ballonXmit\WFEventHandler.o
+                  0x00995c                  WFProcessMgmtIndicateMsg
+ .text            0x009b50        0x1ee Objects - ballonXmit\IP.o
+                  0x009b50                  IPGetHeader
+                  0x009c5c                  IPPutHeader
+                  0x009cfa                  IPSetRxBuffer
+ .text            0x009d3e        0x1ae Objects - ballonXmit\StackTsk.o
+                  0x009d3e                  StackInit
+                  0x009d6a                  StackTask
+                  0x009eda                  StackApplications
+ .text            0x009eec        0x172 Objects - ballonXmit\Announce.o
+                  0x009eec                  AnnounceIP
+                  0x009f78                  DiscoveryTask
+ .text            0x00a05e        0x168 Objects - ballonXmit\WFPowerSave.o
+                  0x00a05e                  WFConfigureLowPowerMode
+                  0x00a09e                  WF_PsPollEnable
+                  0x00a0e6                  isSleepNeeded
+                  0x00a0ee                  ClearSleepNeeded
+                  0x00a0f8                  SetSleepNeeded
+                  0x00a102                  SetAppPowerSaveMode
+                  0x00a10e                  GetAppPowerSaveMode
+                  0x00a116                  WF_PsPollDisable
+                  0x00a138                  WF_GetPowerSaveState
+                  0x00a148                  WFisPsPollEnabled
+                  0x00a166                  WFIsPsPollActive
+                  0x00a16e                  EnsureWFisAwake
+                  0x00a18c                  WF_HibernateEnable
+                  0x00a1ba                  SetPowerSaveState
+ .text            0x00a1c6        0x156 Objects - ballonXmit\WFMgmtMsg.o
+                  0x00a1c6                  SendMgmtMsg
+                  0x00a24a                  SignalMgmtConfirmReceivedEvent
+                  0x00a254                  WaitForMgmtResponse
+                  0x00a2cc                  WaitForMgmtResponseAndReadData
+ .text            0x00a31c        0x136 Objects - ballonXmit\Tick.o
+                  0x00a31c                  TickInit
+                  0x00a39c                  TickGet
+                  0x00a3c4                  TickGetDiv256
+                  0x00a3ec                  TickGetDiv64K
+                  0x00a414                  TickConvertToMilliseconds
+                  0x00a43a                  _T1Interrupt
+ .text            0x00a452        0x12e Objects - ballonXmit\WFConnectionManager.o
+                  0x00a452                  WF_CMConnect
+                  0x00a4a2                  WF_CMDisconnect
+                  0x00a4da                  WF_CMGetConnectionState
+                  0x00a530                  WFisConnected
+                  0x00a538                  SetLogicalConnectionState
+                  0x00a544                  WF_CMCheckConnectionState
+ .text            0x00a580         0xe8 Objects - ballonXmit\WFConsoleMsgs.o
+                  0x00a580                  ConvertASCIIHexToBinary
+                  0x00a624                  HexToBin
+ .text            0x00a668         0xd8 Objects - ballonXmit\WFTxPower.o
+                  0x00a668                  WF_TxPowerSetMinMax
+                  0x00a6b8                  WF_TxPowerGetMinMax
+                  0x00a700                  WF_FixTxRateWithMaxPower
+                  0x00a726                  WF_TxPowerGetFactoryMax
+ .text            0x00a740         0xc8 Objects - ballonXmit\WFScan.o
+                  0x00a766                  WF_Scan
+                  0x00a7b8                  WF_ScanGetResult
+ .text            0x00a808         0xbe Objects - ballonXmit\WF_Spi.o
+                  0x00a808                  WF_SpiInit
+                  0x00a828                  WF_SpiEnableChipSelect
+                  0x00a830                  WF_SpiDisableChipSelect
+                  0x00a83a                  WFSpiTxRx
+ .text            0x00a8c6         0x9e Objects - ballonXmit\WF_Eint.o
+                  0x00a8c6                  WF_EintIsDisabled
+                  0x00a8d8                  WF_EintIsPending
+                  0x00a8fc                  _INT1Interrupt
+                  0x00a936                  WF_EintEnable
+                  0x00a94a                  WF_EintDisable
+                  0x00a952                  WF_EintInit
+ .text            0x00a964         0x84 Objects - ballonXmit\WFConsoleMsgHandler.o
+                  0x00a964                  convertAsciiToHexInPlace
+ .text            0x00a9e8         0x7e Objects - ballonXmit\ICMP.o
+                  0x00a9e8                  ICMPProcess
+ .text            0x00aa66         0x5e Objects - ballonXmit\WFInit.o
+                  0x00aa66                  WF_Init
+ .text            0x00aac4         0x58 Objects - ballonXmit\ZeroconfHelper.o
+                  0x00aac4                  zgzc_wait_for
+ .text            0x00ab1c         0x56 Objects - ballonXmit\Delay.o
+                  0x00ab1c                  DelayMs
+                  0x00ab46                  Delay10us
+ .text            0x00ab72         0x22 Objects - ballonXmit\spi1.o
+                  0x00ab72                  spi1_send_read_byte
+ .text            0x00ab94          0xc Objects - ballonXmit\WF_Config.o
+                  0x00ab94                  WF_ProcessEvent
